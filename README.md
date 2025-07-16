@@ -127,6 +127,11 @@ Labmda functions are defined with word `yo` like:
 (yo (a b) (+ a b))
 ```
 
+With words as parentheses:
+```
+u yo u a b yu u + a b yu yu
+```
+
 ## Morphology
 
 The basic idea of Lispeak morphology are symmetries. In language there're a lot of words with opposite meanings. In Lispeak these words come from one root in different morphological forms. So many roots have left and right forms like:
