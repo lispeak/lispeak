@@ -98,7 +98,12 @@ All sentenses in Lispeak are S-expressions of application operation to operands 
 
 So `I love you` in Lispeak is like `(love I you)`.
 
-But instead of parentheses Lispeak uses words `u` and `yu`:
+#### Symbols
+
+Symbol `(` is pronounced as `u`
+Symbol `)` is pronounced as `yu`
+
+So instead of parentheses you can use words `u` and `yu`:
 
 ```
 u operation operand1 operand2 operand3 yu
