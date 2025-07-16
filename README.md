@@ -36,7 +36,7 @@ The main goal of this project is to create a constucted language with the follow
 - Develop transpiler to JavaScript
 - Develop babel plugin for integrating to JavaScript projects
 
-### Phase 2: Develop "speaking" part 
+### Phase 2: Develop speaking part 
 - Develop automatic text-to-speech tool
 
 ### Phase 3: Develop vocabulary
