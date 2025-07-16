@@ -29,21 +29,11 @@ The main goal of this project is to create a constucted language with the follow
 
 ## Plan
 
-### Phase 1: Develop programming part 
-- Develop lexer
-- Develop parser
-- Develop validator
-- Develop transpiler to JavaScript
-- Develop babel plugin for integrating to JavaScript projects
-
-### Phase 2: Develop speaking part 
-- Develop automatic text-to-speech tool
-
-### Phase 3: Develop vocabulary
-
-- Bootstrap vocabulary on Lispeak
-- Develop symmetric morphology
-- Develop tenses
+- **Phase 1**: Develop core: lexer and parser that turn Lispeak text to AST
+- **Phase 2**: Develop interpreter and standard library based on Church encoding (high programming dialect)
+- **Phase 3**: Develop transpiler to JavaScript with compatibility with JavaScript syntax and standard library (low programming dialect)
+- **Phase 4**: Develop syntax and morphology rules for spoken language (speech dialect)
+- **Phase 5**: Develop docs and tools to translate Lispeak text to speech 
 
 ## Grammar
 
