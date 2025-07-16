@@ -11,21 +11,19 @@ Lispeak is inspired by:
 - [Lojban](https://en.wikipedia.org/wiki/Lojban)
 - [Group theory](https://en.wikipedia.org/wiki/Group_theory)
 
-## Development
+## Goals
 
-The main goal of this project is to create a language with the following parameters:
+The main goal of this project is to create a constucted language with the following parameters:
 
-- Language spec should be written in TypeScript
-- Language development should be completely git-based
-- Language morphology should have based on symmetries like in group theory
-- Language syntax should have structure based on S-expressions like in Lisp
-- Language should be compatible with any natural language (you can use words from your language inside of Lispeak sentences)
-- Language should sound well
-- Language should be able to be executable by computer interpreter like Lisp
-
-## Key points
-
-- Everything is a function
+- Grammar is fully described in TypeScript
+- Grammar is based on functions
+- Grammar development is git-based
+- Every sentence is S-expression
+- Every sentence can be spoken
+- Every sentence can be executed on computer
+- Every word morphology is based on symmetries of the group theory
+- Language is fully compatible with any natural language (you can use words from your language)
+- Language sounds well
 
 ## Alphabet
 
@@ -136,7 +134,7 @@ It means `define left equals right`
 E.g. to say `Alice is a doctor`:
 
 ```
-o elis doktor
+u o elis doktor yu
 ```
 
 ### Recursion
