@@ -88,7 +88,7 @@ With help of the `y` consonant we can create derivative vowels:
 | ------ | -------------- | ----------------- |
 | `(`    | u              | Left parenthesis  |
 | `)`    | yu             | Right parenthesis |
-| `<-`    | o              | Equals            |
+| `<-`    | o             | Define            |
 | `->`   | yo             | Function          |
 
 ## Core syntax
