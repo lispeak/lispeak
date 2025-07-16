@@ -155,3 +155,7 @@ The basic idea of Lispeak morphology are symmetries. In language there're a lot 
 | war      | peace     |
 
 It will be created later
+
+## Technical details
+
+File extension for Lispeak is `.lspk`
