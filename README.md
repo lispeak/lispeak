@@ -82,16 +82,18 @@ With help of the `y` consonant we can create derivative vowels:
 | ------ | ----------------------------------------- | ------------ | ------------------ |
 | '      | stop or a pause in the middle of the word |              | ъ                  |
 
-### Symbols
+## Symbols
+
+In Lispeak you can use symbols in text that have defined pronounciation: 
 
 | Symbol | Pronounciacion | Meaning           |
 | ------ | -------------- | ----------------- |
 | `(`    | u              | Left parenthesis  |
 | `)`    | yu             | Right parenthesis |
-| `<-`    | o             | Define            |
+| `<-`   | o              | Define            |
 | `->`   | yo             | Function          |
 
-## Core syntax
+## Core
 
 The Lispeak language is based on minimalistic syntax core.
 
@@ -105,12 +107,7 @@ All sentenses in Lispeak are S-expressions of application operation to operands 
 
 So `I love you` in Lispeak is like `(love I you)`.
 
-#### Symbols
-
-Symbol `(` is pronounced as `u`
-Symbol `)` is pronounced as `yu`
-
-So instead of parentheses you can use words `u` and `yu`:
+Symbol `(` is pronounced as `u` and symbol `)` is pronounced as `yu`. So instead of parentheses you can use words `u` and `yu`:
 
 ```
 u operation operand1 operand2 operand3 yu
