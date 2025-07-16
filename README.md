@@ -1,6 +1,7 @@
 # Lispeak
 
-Lispeak is a project to create a constructed language
+Lispeak is a constructed language. <br/>
+Lispeak text can be either natural language speech or executable computer program.
 
 ## Inspiration
 
