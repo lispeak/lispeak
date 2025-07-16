@@ -94,6 +94,8 @@ In Lispeak you can use symbols in text that have defined pronounciation:
 | `->`   | yo             | Function          |
 | `<=`   | ao             | Await             |
 | `=>`   | ayo            | Async function    |
+| `<~`   | eo             | Import            |
+| `~>`   | eyo            | Export            |
 
 ## Core
 
