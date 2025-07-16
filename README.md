@@ -15,8 +15,8 @@ Lispeak is inspired by:
 
 The main goal of this project is to create a constucted language with the following parameters:
 
-- Grammar is fully described in TypeScript
 - Grammar is based on functions
+- Grammar is fully described in Lispeak itself
 - Grammar development is git-based
   
 - Every sentence is an S-expression
