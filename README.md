@@ -88,7 +88,7 @@ With help of the `y` consonant we can create derivative vowels:
 | ------ | -------------- | ----------------- |
 | `(`    | u              | Left parenthesis  |
 | `)`    | yu             | Right parenthesis |
-| `=`    | o              | Equals            |
+| `<-`    | o              | Equals            |
 | `->`   | yo             | Function          |
 
 ## Core syntax
@@ -121,7 +121,12 @@ u operation operand1 operand2 operand3 yu
 The most commonly use operation is definition of equality that is used for creating named expressions. It uses symbol `=` or word `o`.
 
 ```
-(o {left} {right})
+(<- {left} {right})
+```
+Read as: 
+
+```
+u o {left} {right} yu
 ```
 
 It means `left equals right`
