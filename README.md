@@ -112,23 +112,12 @@ All sentenses in Lispeak are S-expressions of application operation to operands 
 
 So `I love you` in Lispeak is like `(love I you)`.
 
-Symbol `(` is pronounced as `u` and symbol `)` is pronounced as `yu`. So instead of parentheses you can use words `u` and `yu`:
-
-```
-u operation operand1 operand2 operand3 yu
-```
-
 ### Definition
 
 The most commonly use operation is definition of equality that is used for creating named expressions. It uses symbol `=` or word `o`.
 
 ```
 (<- {left} {right})
-```
-Read as: 
-
-```
-u o {left} {right} yu
 ```
 
 It means `left equals right`
@@ -144,12 +133,6 @@ Labmda functions are defined with symbol `->` and word `yo` like:
 
 ```
 (-> (a b) (+ a b))
-```
-
-It's pronounced like:
-
-```
-u yo u a b yu u + a b yu yu
 ```
 
 ## Morphology
