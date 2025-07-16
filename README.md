@@ -118,10 +118,10 @@ u operation operand1 operand2 operand3 yu
 
 ### Definition
 
-The most commonly use operation is definition of equality that is used for creating named expressions. It uses word `o`.
+The most commonly use operation is definition of equality that is used for creating named expressions. It uses symbol `=` or word `o`.
 
 ```
-u o {left} {right} yu
+(o {left} {right})
 ```
 
 It means `left equals right`
@@ -133,13 +133,13 @@ u o elis doktor yu
 
 ### Function
 
-Labmda functions are defined with word `yo` like:
+Labmda functions are defined with symbol `->` and word `yo` like:
 
 ```
 (-> (a b) (+ a b))
 ```
 
-With words as parentheses:
+It's pronounced like:
 
 ```
 u yo u a b yu u + a b yu yu
