@@ -93,10 +93,10 @@ In Lispeak you can use symbols in text that have defined pronounciation:
 | `)`    | yu             | Right parenthesis |
 | `<-`   | o              | Define            |
 | `->`   | yo             | Function          |
-| `<=`   | ao             | Await             |
-| `=>`   | ayo            | Async function    |
-| `<~`   | eo             | Import            |
-| `~>`   | eyo            | Export            |
+| `<~`   | ao             | Await             |
+| `~>`   | ayo            | Async function    |
+| `<:`   | eo             | Import            |
+| `:>`   | eyo            | Export            |
 
 ## Core
 
