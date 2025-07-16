@@ -41,7 +41,9 @@ The main goal of this project is to create a constucted language with the follow
 
 ### Phase 3: Develop vocabulary
 
-... 
+- Bootstrap vocabulary on Lispeak
+- Develop symmetric morphology
+- Develop tenses
 
 ## Grammar
 
