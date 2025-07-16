@@ -18,9 +18,11 @@ The main goal of this project is to create a constucted language with the follow
 - Grammar is fully described in TypeScript
 - Grammar is based on functions
 - Grammar development is git-based
-- Every sentence is S-expression
+  
+- Every sentence is an S-expression
 - Every sentence can be spoken
 - Every sentence can be executed on computer
+  
 - Every word morphology is based on symmetries of the group theory
 - Language is fully compatible with any natural language (you can use words from your language)
 - Language sounds well
@@ -84,6 +86,43 @@ With help of the `y` consonant we can create derivative vowels:
 | ------ | ----------------------------------------- | ------------ | ------------------ |
 | '      | stop or a pause in the middle of the word |              | ъ                  |
 
+
+## Syntax
+
+### Sentence
+
+All sentenses in Lispeak are S-expressions in prefix notation just like in Lisp:
+
+```
+(operation operand1 operand2 operand3)
+```
+
+E.g. `I love you` will sound in Lispeak like `(love I you)`.
+
+### Parentheses 
+
+Instead of parentheses we use words `u` and `yu`
+
+```
+u  = (
+yu = )
+```
+
+### Define
+
+One of the basic language operations is equality that is used for creating named expressions. It's defined with one letter word `o`.
+
+```
+(o {left} {right})
+```
+
+It means `define that left equals right`
+E.g. to say `Alice is a doctor`:
+
+```
+u o elis doktor yu
+```
+
 ## Morphology
 
 The basic idea of Lispeak morphology are symmetries. In language there're a lot of words with opposite meanings. In Lispeak these words come from one root in different morphological forms. So many roots have left and right forms like:
@@ -103,51 +142,4 @@ The basic idea of Lispeak morphology are symmetries. In language there're a lot 
 | static   | dynamic   |
 | war      | peace     |
 
-The base of every word is root that consists out of consonants only. It can consist of one, two, three or four letters just like in Hebrew.
-The first letter of the word is always one of vowels `a`,`e`,`o`,`u`. The default form is right. Adding `y` to the first vowel makes it left.
-
-E.g.:
-
-```
-u - open parentheses (language recursion down)
-yu - close parentheses (language recursion back up)
-```
-## Syntax
-
-All sentenses in Lispeak are S-expressions in prefix notation just like in Lisp:
-
-```
-(operation operand1 operand2 operand3)
-```
-
-E.g. `I love you` will sound in Lispeak like `love I you`.
-
-### Define
-
-One of the basic language operations is equality that is used for creating named expressions. It's defined with one letter word `o`.
-
-```
-o {left} {right}
-```
-
-It means `define left equals right`
-E.g. to say `Alice is a doctor`:
-
-```
-u o elis doktor yu
-```
-
-### Recursion
-
-For language recursion (not to be confused with algorithmic recursion) Lispeak uses two particles:
-
-- Recursion down: word `u`
-- Recursion up word `yu`
-
-It works similar to parentheses in Lisp.
-
-So if we want to speak something like `x1 (x2 x3 x4) x5 (x6 x7)` we will say:
-
-```
-x1 u x2 x3 x4 yu x5 u x6 x7 yu
-```
+It will be defined later
