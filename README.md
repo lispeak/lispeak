@@ -21,7 +21,8 @@ The main goal of this project is to create a constucted language with the follow
 - Every sentence is an S-expression
 - Every sentence can be spoken
 - Every sentence can be executed on computer
-- Every word morphology is based on symmetries of the group theory
+- Every word is based on symmetries of the group theory
+- Language is transpiled to JavaScript 
 - Language is fully compatible with any natural language (you can use words from your language)
 - Language sounds well
 
