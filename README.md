@@ -11,17 +11,21 @@ Lispeak is inspired by:
 - [Lojban](https://en.wikipedia.org/wiki/Lojban)
 - [Group theory](https://en.wikipedia.org/wiki/Group_theory)
 
-## Manifesto
+## Development
 
 The main goal of this project is to create a language with the following parameters:
 
-- Language specification should be written in TypeScript
-- Language specification and development should be completely git-based
+- Language spec should be written in TypeScript
+- Language development should be completely git-based
 - Language morphology should have based on symmetries like in group theory
 - Language syntax should have structure based on S-expressions like in Lisp
 - Language should be compatible with any natural language (you can use words from your language inside of Lispeak sentences)
 - Language should sound well
 - Language should be able to be executable by computer interpreter like Lisp
+
+## Key points
+
+- Everything is a function
 
 ## Alphabet
 
@@ -110,82 +114,6 @@ E.g.:
 u - open parentheses (language recursion down)
 yu - close parentheses (language recursion back up)
 ```
-
-### Modificators
-
-#### Static and dynamic words
-
-Static words mean static objects like "apple" and dynamic words mean some dynamic action like "to walk". It's similar to nouns and verbs.
-
-#### Relation words
-
-- Adjectives from static words
-- Participles from dynamic words
-
-#### Perfection and imperfection
-
-#### Past and future time
-
-#### Male and female gender
-
-## Words
-
-### Pronouns
-
-| Person       | Lispeak | English   | Russian    |
-| ------------ | ------- | --------- | ---------- |
-| 1st Singular | ba      | I         | Я          |
-| 1st Plural   | bai     | We        | Мы         |
-| 2nd Singular | bu      | You       | Ты         |
-| 2nd Plural   | bui     | You       | Вы         |
-| 3rd Singular | bo      | He/She/It | Он/Она/Оно |
-| 3rd Plural   | boi     | They      | Они        |
-
-### Numerals
-
-Numerals in Lispeak are derived from alphabet.
-
-```
-0 - ia
-1 - bi
-2 - di
-3 - gi
-4 - ji
-5 - li
-6 - mi
-7 - ni
-8 - vi
-9 - zi
-```
-
-```
-10 - bia
-11 - bia bi
-12 - bia di
-...
-19 - bia zi
-```
-
-```
-20 - dibia
-30 - gibia
-...
-90 - zibia
-```
-
-```
-100 - biardi
-200 - dibiardi
-1000 - biargi
-2000 - dibiargi
-10000 - biarji
-```
-
-```
-111 - u biardi bia bi yu
-237 - u dibiardi gibia ni yu
-```
-
 ## Syntax
 
 All sentenses in Lispeak are S-expressions in prefix notation just like in Lisp:
