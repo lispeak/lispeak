@@ -1,7 +1,6 @@
 # Lispeak
 
-Lispeak is a constructed language. <br/>
-Lispeak text can be either natural language speech or executable computer program.
+Lispeak is a constructed language in which a text can be both a computer program and natural speech.
 
 ## Inspiration
 
