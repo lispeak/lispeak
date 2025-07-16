@@ -89,7 +89,7 @@ With help of the `y` consonant we can create derivative vowels:
 | `(`    | u              | Left parenthesis  |
 | `)`    | yu             | Right parenthesis |
 | `=`    | o              | Equals            |
-| `->`   | funk           | Function          |
+| `->`   | yo             | Function          |
 
 ## Core syntax
 
@@ -133,7 +133,7 @@ u o elis doktor yu
 
 ### Function
 
-Labmda functions are defined with word `` like:
+Labmda functions are defined with word `yo` like:
 
 ```
 (-> (a b) (+ a b))
