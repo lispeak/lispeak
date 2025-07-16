@@ -84,41 +84,42 @@ With help of the `y` consonant we can create derivative vowels:
 | ------ | ----------------------------------------- | ------------ | ------------------ |
 | '      | stop or a pause in the middle of the word |              | ъ                  |
 
-## Syntax
+## Core syntax
 
-### Sentence
+The Lispeak language is based on minimalistic syntax core. 
 
-All sentenses in Lispeak are S-expressions in prefix notation just like in Lisp:
+### Application
+
+All sentenses in Lispeak are S-expressions of application operation to operands in prefix notation just like in Lisp:
 
 ```
 (operation operand1 operand2 operand3)
 ```
 
-E.g. `I love you` will sound in Lispeak like `(love I you)`.
+So `I love you` in Lispeak is like `(love I you)`.
 
-### Parentheses 
-
-Instead of parentheses we use words `u` and `yu`
+But instead of parentheses Lispeak uses words `u` and `yu`:
 
 ```
-u  = (
-yu = )
+u operation operand1 operand2 operand3 yu
 ```
 
-### Define
+### Definition
 
-One of the basic language operations is equality that is used for creating named expressions. It's defined with one letter word `o`.
+The most commonly use operation is definition of equality that is used for creating named expressions. It uses word `o`.
 
 ```
-(o {left} {right})
+u o {left} {right} yu
 ```
 
-It means `define that left equals right`
+It means `left equals right`
 E.g. to say `Alice is a doctor`:
 
 ```
 u o elis doktor yu
 ```
+
+### Function
 
 ## Morphology
 
@@ -139,4 +140,4 @@ The basic idea of Lispeak morphology are symmetries. In language there're a lot 
 | static   | dynamic   |
 | war      | peace     |
 
-It will be defined later
+It will be created later
