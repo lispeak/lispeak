@@ -35,16 +35,6 @@ Alphabet of Lispeak is mostly taken from Lojban with a few small changes.
 abcdefghijklmnoprstuvxyz
 ```
 
-### Vowels
-
-| Symbol | Description       | Example Word | Russian Equivalent |
-| ------ | ----------------- | ------------ | ------------------ |
-| a      | Open vowel        | father       | а                  |
-| o      | Back mid vowel    | open         | о                  |
-| e      | Front mid vowel   | bet          | э                  |
-| u      | Back close vowel  | moon         | у                  |
-| i      | Front close vowel | machine      | и                  |
-
 ### Consonants
 
 | Symbol | Description                   | Example Word     | Russian Equivalent |
@@ -69,7 +59,15 @@ abcdefghijklmnoprstuvxyz
 | y      | Voiced palatal approximant    | may / (fr.) Paul | й/ь                |
 | z      | Voiced alveolar sibilant      | ooze             | з                  |
 
-### Derivative vowels
+### Vowels
+
+| Symbol | Description       | Example Word | Russian Equivalent |
+| ------ | ----------------- | ------------ | ------------------ |
+| a      | Open vowel        | father       | а                  |
+| o      | Back mid vowel    | open         | о                  |
+| e      | Front mid vowel   | bet          | э                  |
+| u      | Back close vowel  | moon         | у                  |
+| i      | Front close vowel | machine      | и                  |
 
 With help of the `y` consonant we can create derivative vowels:
 
@@ -85,7 +83,6 @@ With help of the `y` consonant we can create derivative vowels:
 | Symbol | Description                               | Example Word | Russian Equivalent |
 | ------ | ----------------------------------------- | ------------ | ------------------ |
 | '      | stop or a pause in the middle of the word |              | ъ                  |
-
 
 ## Syntax
 
