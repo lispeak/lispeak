@@ -1,6 +1,7 @@
 # Lispeak
 
-Lispeak is a constructed language in which a text can be both a computer program and natural speech.
+Lispeak is a constructed language in which a text can be both a computer program and natural speech. <br/>
+File extension for Lispeak files is `.lspk`
 
 ## Inspiration
 
@@ -26,7 +27,25 @@ The main goal of this project is to create a constucted language with the follow
 - Language is fully compatible with any natural language (you can use words from your language)
 - Language sounds well
 
-## Alphabet
+## Plan
+
+### Phase 1: Develop programming part 
+- Develop lexer
+- Develop parser
+- Develop validator
+- Develop transpiler to JavaScript
+- Develop babel plugin for integrating to JavaScript projects
+
+### Phase 2: Develop "speaking" part 
+- Develop automatic text-to-speech tool
+
+### Phase 3: Develop vocabulary
+
+... 
+
+## Grammar
+
+### Alphabet
 
 Alphabet of Lispeak is mostly taken from Lojban with a few small changes.
 
@@ -34,7 +53,7 @@ Alphabet of Lispeak is mostly taken from Lojban with a few small changes.
 abcdefghijklmnoprstuvxyz
 ```
 
-### Consonants
+#### Consonants
 
 | Symbol | Description                   | Example Word     | Russian Equivalent |
 | ------ | ----------------------------- | ---------------- | ------------------ |
@@ -58,7 +77,7 @@ abcdefghijklmnoprstuvxyz
 | y      | Voiced palatal approximant    | may / (fr.) Paul | й/ь                |
 | z      | Voiced alveolar sibilant      | ooze             | з                  |
 
-### Vowels
+#### Vowels
 
 | Symbol | Description       | Example Word | Russian Equivalent |
 | ------ | ----------------- | ------------ | ------------------ |
@@ -77,13 +96,13 @@ With help of the `y` consonant we can create derivative vowels:
 | ye     | Front mid vowel  | yes          | е                  |
 | yu     | Back close vowel | use          | ю                  |
 
-### Special signs
+#### Special signs
 
 | Symbol | Description                               | Example Word | Russian Equivalent |
 | ------ | ----------------------------------------- | ------------ | ------------------ |
 | '      | stop or a pause in the middle of the word |              | ъ                  |
 
-## Symbols
+### Symbols
 
 In Lispeak you can use symbols in text that have defined pronounciation: 
 
@@ -98,11 +117,11 @@ In Lispeak you can use symbols in text that have defined pronounciation:
 | `<:`   | eo             | Import            |
 | `:>`   | eyo            | Export            |
 
-## Core
+### Syntax
 
 The Lispeak language is based on minimalistic syntax core.
 
-### Application
+#### Application
 
 All sentenses in Lispeak are S-expressions of application operation to operands in prefix notation just like in Lisp:
 
@@ -112,7 +131,7 @@ All sentenses in Lispeak are S-expressions of application operation to operands 
 
 So `I love you` in Lispeak is like `(love I you)`.
 
-### Definition
+#### Definition
 
 The most commonly use operation is definition of equality that is used for creating named expressions. It uses symbol `=` or word `o`.
 
@@ -127,7 +146,7 @@ E.g. to say `Alice is a doctor`:
 u o elis doktor yu
 ```
 
-### Function
+#### Function
 
 Labmda functions are defined with symbol `->` and word `yo` like:
 
@@ -135,7 +154,7 @@ Labmda functions are defined with symbol `->` and word `yo` like:
 (-> (a b) (+ a b))
 ```
 
-## Morphology
+### Morphology
 
 The basic idea of Lispeak morphology are symmetries. In language there're a lot of words with opposite meanings. In Lispeak these words come from one root in different morphological forms. So many roots have left and right forms like:
 
@@ -155,7 +174,3 @@ The basic idea of Lispeak morphology are symmetries. In language there're a lot 
 | war      | peace     |
 
 It will be created later
-
-## Technical details
-
-File extension for Lispeak is `.lspk`
