@@ -18,11 +18,9 @@ The main goal of this project is to create a constucted language with the follow
 - Grammar is based on functions
 - Grammar is fully described in Lispeak itself
 - Grammar development is git-based
-  
 - Every sentence is an S-expression
 - Every sentence can be spoken
 - Every sentence can be executed on computer
-  
 - Every word morphology is based on symmetries of the group theory
 - Language is fully compatible with any natural language (you can use words from your language)
 - Language sounds well
@@ -84,9 +82,18 @@ With help of the `y` consonant we can create derivative vowels:
 | ------ | ----------------------------------------- | ------------ | ------------------ |
 | '      | stop or a pause in the middle of the word |              | ъ                  |
 
+### Symbols
+
+| Symbol | Pronounciacion | Meaning           |
+| ------ | -------------- | ----------------- |
+| `(`    | u              | Left parenthesis  |
+| `)`    | yu             | Right parenthesis |
+| `=`    | o              | Equals            |
+| `->`   | funk           | Function          |
+
 ## Core syntax
 
-The Lispeak language is based on minimalistic syntax core. 
+The Lispeak language is based on minimalistic syntax core.
 
 ### Application
 
@@ -126,13 +133,14 @@ u o elis doktor yu
 
 ### Function
 
-Labmda functions are defined with word `yo` like:
+Labmda functions are defined with word `` like:
 
 ```
-(yo (a b) (+ a b))
+(-> (a b) (+ a b))
 ```
 
 With words as parentheses:
+
 ```
 u yo u a b yu u + a b yu yu
 ```
