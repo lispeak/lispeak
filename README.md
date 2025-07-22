@@ -39,14 +39,14 @@ The main goal of this project is to create a constucted language that is program
 
 The core of Lispeak is based on Lambda calculus.
 
-## Expressions
+### Expressions
 
 Every expression in Lispeak is application of functions. E.g. the following means applying function `a` to parameters `b` and `c`:
 ```
 (a b c)
 ```
 
-## Named expressions
+### Named expressions
 
 You can create named expressions with left arrow `<-`. E.g. in the following example we create expression named `a` with value `1`:
 
@@ -54,7 +54,7 @@ You can create named expressions with left arrow `<-`. E.g. in the following exa
 (<- a 1) 
 ```
 
-## Lambda functions 
+### Lambda functions 
 
 You can create lambda functions with right arrow `<-`.
 
@@ -66,6 +66,22 @@ You can name this function:
 
 ```
 (<- sum (-> a b (+ a b)))
+```
+
+### Imports and exports
+
+Each `.lspk` file has exactly one export that you can import in another files.
+
+Let's say we have a file called `module2.lspk`
+```
+(<- sum (-> a b (+ a b)))
+
+~> sum
+```
+
+In another file called `module1.lspk` we can do
+```
+(<- sum (<~ './module2'))
 ```
 
 ## Grammar
