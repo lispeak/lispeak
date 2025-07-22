@@ -35,6 +35,39 @@ The main goal of this project is to create a constucted language that is program
 - **Phase 4**: Develop syntax and morphology rules for spoken language (speech dialect)
 - **Phase 5**: Develop docs and tools to translate Lispeak text to speech 
 
+## Core 
+
+The core of Lispeak is based on Lambda calculus.
+
+## Expressions
+
+Every expression in Lispeak is application of functions. E.g. the following means applying function `a` to parameters `b` and `c`:
+```
+(a b c)
+```
+
+## Named expressions
+
+You can create named expressions with left arrow `<-`. E.g. in the following example we create expression named `a` with value `1`:
+
+```
+(<- a 1) 
+```
+
+## Lambda functions 
+
+You can create lambda functions with right arrow `<-`.
+
+```
+(-> a b (+ a b))
+```
+
+You can name this function:
+
+```
+(<- sum (-> a b (+ a b)))
+```
+
 ## Grammar
 
 ### Alphabet
