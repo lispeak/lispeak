@@ -100,14 +100,12 @@ In Lispeak you can use symbols in text that have defined pronounciation:
 
 | Symbol | Pronounciacion | Meaning           |
 | ------ | -------------- | ----------------- |
-| `(`    | u              | Left parenthesis  |
-| `)`    | yu             | Right parenthesis |
-| `<-`   | o              | Define            |
-| `->`   | yo             | Function          |
-| `<~`   | ao             | Await             |
-| `~>`   | ayo            | Async function    |
-| `<:`   | eo             | Import            |
-| `:>`   | eyo            | Export            |
+| `(`      | u              | Left parenthesis  |
+| `)`      | yu             | Right parenthesis |
+| `<-`     | o              | Define            |
+| `->`     | yo             | Function          |
+| `<~`     | eo             | Import            |
+| `~>`     | eyo            | Export            |
 
 ### Syntax
 
