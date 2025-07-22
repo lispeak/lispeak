@@ -14,7 +14,7 @@ Lispeak is inspired by:
 
 ## Goals
 
-The main goal of this project is to create a constucted language with the following parameters:
+The main goal of this project is to create a constucted language that is programming and speaking language at the same time:
 
 - Grammar is based on functions
 - Grammar is fully described in Lispeak itself
