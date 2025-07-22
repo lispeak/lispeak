@@ -33,7 +33,39 @@ The main goal of this project is to create a constucted language that is program
 - **Phase 2**: Develop interpreter and standard library based on Church encoding (high programming dialect)
 - **Phase 3**: Develop transpiler to JavaScript with compatibility with JavaScript syntax and standard library (low programming dialect)
 - **Phase 4**: Develop syntax and morphology rules for spoken language (speech dialect)
-- **Phase 5**: Develop docs and tools to translate Lispeak text to speech 
+- **Phase 5**: Develop docs and tools to translate Lispeak text to speech
+
+## Schema 
+
+```mermaid
+flowchart TD
+ subgraph HighDialect["High dialect"]
+        Interpreter["Interpreter"]
+        HighLib["Church-encoding based standard library"]
+        Interpreter --> HighLib
+  end
+ subgraph LowDialect["Low dialect"]
+        Transpiler["Transpiler to JavaScript"]
+        LowLib["JavaScript compatible standard library"]
+        Transpiler --> LowLib
+  end
+ subgraph SpeakDialect["Speak dialect"]
+        Grammar["Function based syntax and morphology"]
+        VocabularLib["Vocabular"]
+        Grammar --> VocabularLib
+  end
+    AST["AST"]
+    File1[".lspk"] 
+    File2[".lspk"] 
+    File3[".lspk"]
+    Parser("Parser")
+
+    File1 --> File3
+    File2 --> File3
+    File3 --> Parser
+    Parser --> AST
+    AST --> HighDialect & LowDialect & SpeakDialect
+```
 
 ## Core 
 
