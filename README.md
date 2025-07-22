@@ -79,9 +79,14 @@ Let's say we have a file called `module2.lspk`
 ~> sum
 ```
 
-In another file called `module1.lspk` we can do
+In another file called `module1.lspk` we can do:
 ```
 (<- sum (<~ './module2'))
+```
+Or more simplified:
+
+```
+<~ sum './module2'
 ```
 
 ## Grammar
