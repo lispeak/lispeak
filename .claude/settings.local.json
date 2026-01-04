@@ -3,7 +3,8 @@
     "allow": [
       "Bash(pnpm --version:*)",
       "Bash(mv:*)",
-      "Bash(pnpm install)"
+      "Bash(pnpm install)",
+      "Bash(pnpm add:*)"
     ]
   }
 }
