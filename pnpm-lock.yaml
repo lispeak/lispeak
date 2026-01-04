@@ -36,9 +36,9 @@ importers:
       '@repo/config-eslint':
         specifier: workspace:*
         version: link:../../packages/config-eslint
-      '@repo/typescript-config':
+      '@repo/config-typescript':
         specifier: workspace:*
-        version: link:../../packages/typescript-config
+        version: link:../../packages/config-typescript
       '@types/node':
         specifier: ^22.15.3
         version: 22.19.3
@@ -73,9 +73,9 @@ importers:
       '@repo/config-eslint':
         specifier: workspace:*
         version: link:../../packages/config-eslint
-      '@repo/typescript-config':
+      '@repo/config-typescript':
         specifier: workspace:*
-        version: link:../../packages/typescript-config
+        version: link:../../packages/config-typescript
       '@types/node':
         specifier: ^22.15.3
         version: 22.19.3
@@ -128,7 +128,7 @@ importers:
         specifier: ^8.50.0
         version: 8.51.0(eslint@9.39.2)(typescript@5.9.2)
 
-  packages/typescript-config: {}
+  packages/config-typescript: {}
 
   packages/ui:
     dependencies:
@@ -142,9 +142,9 @@ importers:
       '@repo/config-eslint':
         specifier: workspace:*
         version: link:../config-eslint
-      '@repo/typescript-config':
+      '@repo/config-typescript':
         specifier: workspace:*
-        version: link:../typescript-config
+        version: link:../config-typescript
       '@types/node':
         specifier: ^22.15.3
         version: 22.19.3
