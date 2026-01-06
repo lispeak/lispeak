@@ -55,43 +55,6 @@ importers:
         specifier: 5.9.2
         version: 5.9.2
 
-  apps/web:
-    dependencies:
-      '@repo/ui':
-        specifier: workspace:*
-        version: link:../../packages/ui
-      next:
-        specifier: 16.1.0
-        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
-      react:
-        specifier: ^19.2.0
-        version: 19.2.3
-      react-dom:
-        specifier: ^19.2.0
-        version: 19.2.3(react@19.2.3)
-    devDependencies:
-      '@repo/config-eslint':
-        specifier: workspace:*
-        version: link:../../packages/config-eslint
-      '@repo/config-typescript':
-        specifier: workspace:*
-        version: link:../../packages/config-typescript
-      '@types/node':
-        specifier: ^22.15.3
-        version: 22.19.3
-      '@types/react':
-        specifier: 19.2.2
-        version: 19.2.2
-      '@types/react-dom':
-        specifier: 19.2.2
-        version: 19.2.2(@types/react@19.2.2)
-      eslint:
-        specifier: ^9.39.1
-        version: 9.39.2
-      typescript:
-        specifier: 5.9.2
-        version: 5.9.2
-
   packages/config-eslint:
     devDependencies:
       '@eslint/js':
