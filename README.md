@@ -85,23 +85,40 @@ Adding `y` before the basic vowel we create a derivative vowel
 | ------ | ----------------------------------------- | ------------------ |
 | '      | stop or a pause in the middle of the word | ъ                  |
 
+## Symmetry
+
+Lispeak is based on ideas of groups and symmetries from the group theory. <br/>
+Every meaning in Lispeak should be a group:
+
+- It should have neutral element (identity)
+- It should have negation operation (not)
+
+Neutral element and negation has phonetic difference. <br/>
+Letter `y` works as negation operation for vowels - so the same word but starting with `o` and starting with `yo` have opposite meanings.
+
 ## Syntax
 
 Lispeak syntax is based on lambda calculus.
 
-| Word | Similar symbol | Symbol in lambda calculus | Description         |
-| ---- | -------------- | ------------------------- | ------------------- |
-| o    | `(`            | `(`                       | Opening parenthesis |
-| yo   | `)`            | `(`                       | Closing parenthesis |
-| a    | `<-`           | `=`                       | Naming expression   |
-| ya   | `->`           | `λ.`                      | Lambda              |
+| Word | Replacement symbol | Symbol in lambda calculus | Description         |
+| ---- | ------------------ | ------------------------- | ------------------- |
+| o    | `(`                | `(`                       | Opening parenthesis |
+| yo   | `)`                | `(`                       | Closing parenthesis |
+| a    | `<-`               | `=`                       | Naming expression   |
+| ya   | `->`               | `λ.`                      | Lambda              |
+
+Lispeak uses [prefix notation](https://en.wikipedia.org/wiki/Polish_notation):
+
+```
+o operation operand1 operand2 operand3 yo
+```
 
 So let's check some expressions out:
 
-| Lispeak expression        | Symbolic expression    | Lambda calculus equivalent |
-| ------------------------- | ---------------------- | -------------------------- |
-| X                         | `X`                    | `X`                        |
-| o X Y yo                  | `(X Y)`                | `(X Y)`                    |
-| o a X o Y Z yo yo         | `(<- X (Y Z))`         | `X = (Y Z)`                |
-| o ya X ya Y X yo          | `(-> X -> Y X)`        | `(λ.X λ.Y X)`              |
-| o a X o ya Y ya Z Y yo yo | `(<- X (-> Y -> Z Y))` | `X = (λ.Y λ.Z Y)`          |
+| Lispeak expression        | Replacement symbolic expression | Lambda calculus equivalent |
+| ------------------------- | ------------------------------- | -------------------------- |
+| X                         | `X`                             | `X`                        |
+| o X Y yo                  | `(X Y)`                         | `(X Y)`                    |
+| o a X o Y Z yo yo         | `(<- X (Y Z))`                  | `X = (Y Z)`                |
+| o ya X ya Y X yo          | `(-> X -> Y X)`                 | `(λ.X λ.Y X)`              |
+| o a X o ya Y ya Z Y yo yo | `(<- X (-> Y -> Z Y))`          | `X = (λ.Y λ.Z Y)`          |
