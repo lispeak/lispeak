@@ -481,3 +481,78 @@ body {
     border-top: 1px solid rgba(129, 140, 248, 0.1);
   }
 }
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 4rem 2rem;
+  border-top: 1px solid rgba(99, 102, 241, 0.1);
+}
+
+.footer-author {
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.footer-link {
+  color: var(--accent);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.footer-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.github-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  background: var(--foreground);
+  color: var(--background);
+  text-decoration: none;
+  font-weight: 500;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.github-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.github-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.github-text {
+  font-size: 0.95rem;
+}
+
+.github-stars {
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  margin-left: 0.25rem;
+  border-radius: 0.25rem;
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer {
+    border-top: 1px solid rgba(129, 140, 248, 0.1);
+  }
+
+  .github-stars {
+    background: rgba(0, 0, 0, 0.2);
+  }
+}
