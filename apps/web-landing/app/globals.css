@@ -241,3 +241,130 @@ body {
   color: var(--muted);
   text-align: center;
 }
+
+/* Syntax Section */
+.syntax-intro {
+  text-align: center;
+  font-size: 1.25rem;
+  color: var(--muted);
+  margin-top: -2rem;
+  margin-bottom: 4rem;
+}
+
+.syntax-keywords,
+.syntax-examples {
+  margin-bottom: 4rem;
+}
+
+.syntax-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.keywords-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.keyword-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background: rgba(99, 102, 241, 0.05);
+  border: 1px solid rgba(99, 102, 241, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.keyword-card:hover {
+  transform: translateY(-2px);
+}
+
+.keyword-word {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: var(--font-geist-mono), monospace;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.keyword-symbol {
+  font-size: 1.5rem;
+  font-family: var(--font-geist-mono), monospace;
+  color: var(--foreground);
+  margin-bottom: 0.5rem;
+}
+
+.keyword-description {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.examples-table {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid rgba(99, 102, 241, 0.1);
+}
+
+.examples-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: rgba(99, 102, 241, 0.1);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.examples-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid rgba(99, 102, 241, 0.1);
+}
+
+.examples-row code {
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.9rem;
+  color: var(--foreground);
+}
+
+@media (max-width: 600px) {
+  .examples-header,
+  .examples-row {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .examples-header span:not(:first-child),
+  .examples-row code:not(:first-child) {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .keyword-card {
+    background: rgba(129, 140, 248, 0.05);
+    border: 1px solid rgba(129, 140, 248, 0.1);
+  }
+
+  .examples-table {
+    border: 1px solid rgba(129, 140, 248, 0.15);
+  }
+
+  .examples-header {
+    background: rgba(129, 140, 248, 0.1);
+  }
+
+  .examples-row {
+    border-top: 1px solid rgba(129, 140, 248, 0.1);
+  }
+}
