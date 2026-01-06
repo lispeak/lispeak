@@ -78,3 +78,9 @@ Adding `y` before the basic vowel we create a derivative vowel
 | ye     | yes                      | е                  |
 | yu     | <b>u</b>se               | ю                  |
 | yi     | mach<b>i</b>ne           | и                  |
+
+### Special signs
+
+| Symbol | Description                               | Russian Equivalent |
+| ------ | ----------------------------------------- | ------------------ |
+| '      | stop or a pause in the middle of the word | ъ                  |
