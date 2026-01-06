@@ -122,3 +122,7 @@ So let's check some expressions out:
 | o a X o Y Z yo yo         | `(<- X (Y Z))`                  | `X = (Y Z)`                |
 | o ya X ya Y X yo          | `(-> X -> Y X)`                 | `(λ.X λ.Y X)`              |
 | o a X o ya Y ya Z Y yo yo | `(<- X (-> Y -> Z Y))`          | `X = (λ.Y λ.Z Y)`          |
+
+## Morphology
+
+The basic idea of Lispeak morphology is phonetic symmetry using pair sounds like `a` and `ya` or `f` and `v` for symmetric meanings like `left` and `right`, `beautiful` and `ugly`, `subject` and `object`, `cold` and `hot`. It will be based on something similar to consonant roots and binyanim in Hebrew.
