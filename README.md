@@ -1,6 +1,6 @@
 # Lispeak
 
-LISP you can speak on!
+LISP you can speak!
 
 ## Inspiration
 
