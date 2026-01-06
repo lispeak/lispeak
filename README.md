@@ -144,7 +144,7 @@ Digits in Lispeak are based on vowels in alphabetic order:
 | 8     | `una`   | `уна`                 |
 | 9     | `yuna`  | `юна`                 |
 
-To construct a numberal you can use first sounds of digits separated by `'` with `a` on the end:
+To construct a numeral you can use first sounds of digits separated by `'` with `a` on the end:
 
 | Number | Lispeak          | Russian Pronunciation |
 | ------ | ---------------- | --------------------- |

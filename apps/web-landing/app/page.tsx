@@ -67,6 +67,25 @@ const legend = [
   { type: 'special', label: 'Special Signs' },
 ];
 
+const digits = [
+  { digit: '0', lispeak: 'ana', russian: 'ана' },
+  { digit: '1', lispeak: 'yana', russian: 'яна' },
+  { digit: '2', lispeak: 'ena', russian: 'эна' },
+  { digit: '3', lispeak: 'yena', russian: 'ена' },
+  { digit: '4', lispeak: 'ina', russian: 'ына' },
+  { digit: '5', lispeak: 'yina', russian: 'ина' },
+  { digit: '6', lispeak: 'ona', russian: 'она' },
+  { digit: '7', lispeak: 'yona', russian: 'ёна' },
+  { digit: '8', lispeak: 'una', russian: 'уна' },
+  { digit: '9', lispeak: 'yuna', russian: 'юна' },
+];
+
+const numeralExamples = [
+  { number: '12', lispeak: "yan'ena", russian: 'ян-эна' },
+  { number: '586', lispeak: "yin'un'ona", russian: 'ин-ун-она' },
+  { number: '9470', lispeak: "yun'in'yon'ana", russian: 'юн-ын-ён-ана' },
+];
+
 const syntaxKeywords = [
   { word: 'o', symbol: '(', description: 'Opening parenthesis' },
   { word: 'yo', symbol: ')', description: 'Closing parenthesis' },
@@ -120,6 +139,35 @@ export default function Home() {
               <span className="letter-sound">{letter.sound}</span>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section className="section numerals">
+        <h2 className="section-title">Digits & Numerals</h2>
+        <p className="numerals-intro">Digits are based on vowels in alphabetic order</p>
+
+        <div className="digits-grid">
+          {digits.map((d) => (
+            <div key={d.digit} className="digit-card">
+              <span className="digit-number">{d.digit}</span>
+              <span className="digit-lispeak">{d.lispeak}</span>
+              <span className="digit-russian">{d.russian}</span>
+            </div>
+          ))}
+        </div>
+
+        <div className="numerals-examples">
+          <h3 className="numerals-subtitle">Building Numerals</h3>
+          <p className="numerals-note">Combine first sounds of digits with ' separator</p>
+          <div className="numerals-table">
+            {numeralExamples.map((ex) => (
+              <div key={ex.number} className="numeral-row">
+                <span className="numeral-number">{ex.number}</span>
+                <span className="numeral-lispeak">{ex.lispeak}</span>
+                <span className="numeral-russian">{ex.russian}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
