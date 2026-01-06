@@ -122,3 +122,97 @@ body {
     box-shadow: 0 12px 40px rgba(129, 140, 248, 0.1);
   }
 }
+
+/* Alphabet Section */
+.alphabet-letters {
+  text-align: center;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-family: var(--font-geist-mono), monospace;
+  letter-spacing: 0.3em;
+  color: var(--accent);
+  margin-bottom: 4rem;
+}
+
+.alphabet-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.alphabet-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.alphabet-group-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.alphabet-note {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-top: -0.5rem;
+}
+
+.letter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 1rem;
+}
+
+.letter-grid.vowels {
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+}
+
+.letter-grid.special {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.letter-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background: rgba(99, 102, 241, 0.05);
+  border: 1px solid rgba(99, 102, 241, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.letter-card:hover {
+  transform: translateY(-2px);
+}
+
+.letter-symbol {
+  font-size: 1.75rem;
+  font-weight: 700;
+  font-family: var(--font-geist-mono), monospace;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.letter-sound {
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+.special-card {
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.special-card .letter-symbol {
+  margin-bottom: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .letter-card {
+    background: rgba(129, 140, 248, 0.05);
+    border: 1px solid rgba(129, 140, 248, 0.1);
+  }
+}
