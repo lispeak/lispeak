@@ -35,53 +35,53 @@ abcdefghijklmnoprstuvxyz
 
 ### Consonants
 
-| Symbol | Example sound in English | Russian equivalent |
-| ------ | ------------------------ | ------------------ |
-| b      | bagel                    | б                  |
-| c      | <b>sh</b>ark             | ш                  |
-| d      | desk                     | д                  |
-| f      | fat                      | ф                  |
-| g      | great                    | г                  |
-| h      | Ba<b>ch</b>              | х                  |
-| j      | mea<b>s</b>ure           | ж                  |
-| k      | kill                     | к                  |
-| l      | lake                     | л                  |
-| m      | maybe                    | м                  |
-| n      | neck                     | н                  |
-| p      | pepper                   | п                  |
-| r      | river                    | р                  |
-| s      | snake                    | с                  |
-| t      | table                    | т                  |
-| v      | vast                     | в                  |
-| x      | <b>ch</b>ipotle          | ч                  |
-| y      | may / (fr.) Paul         | й/ь                |
-| z      | ooze                     | з                  |
+| Symbol | Sound in English | Russian Equivalent |
+| ------ | ---------------- | ------------------ |
+| b      | bagel            | б                  |
+| c      | <b>sh</b>ark     | ш                  |
+| d      | desk             | д                  |
+| f      | fat              | ф                  |
+| g      | great            | г                  |
+| h      | Ba<b>ch</b>      | х                  |
+| j      | mea<b>s</b>ure   | ж                  |
+| k      | kill             | к                  |
+| l      | lake             | л                  |
+| m      | maybe            | м                  |
+| n      | neck             | н                  |
+| p      | pepper           | п                  |
+| r      | river            | р                  |
+| s      | snake            | с                  |
+| t      | table            | т                  |
+| v      | vast             | в                  |
+| x      | <b>ch</b>ipotle  | ч                  |
+| y      | may / (fr.) Paul | й/ь                |
+| z      | ooze             | з                  |
 
 ### Vowels
 
 Basic vowels are
 
-| Symbol | Example sound in English | Russian equivalent |
-| ------ | ------------------------ | ------------------ |
-| a      | father                   | а                  |
-| o      | open                     | о                  |
-| e      | bet                      | э                  |
-| u      | moon                     | у                  |
-| i      | -                        | ы                  |
+| Symbol | Sound in English | Russian Equivalent |
+| ------ | ---------------- | ------------------ |
+| a      | father           | а                  |
+| o      | open             | о                  |
+| e      | bet              | э                  |
+| u      | moon             | у                  |
+| i      | -                | ы                  |
 
 Adding `y` before the basic vowel we create a derivative vowel
 
-| Symbol | Example sound in English | Russian equivalent |
-| ------ | ------------------------ | ------------------ |
-| ya     | yard                     | я                  |
-| yo     | yoga                     | ё                  |
-| ye     | yes                      | е                  |
-| yu     | <b>u</b>se               | ю                  |
-| yi     | mach<b>i</b>ne           | и                  |
+| Symbol | Sound in English | Russian Equivalent |
+| ------ | ---------------- | ------------------ |
+| ya     | yard             | я                  |
+| yo     | yoga             | ё                  |
+| ye     | yes              | е                  |
+| yu     | <b>u</b>se       | ю                  |
+| yi     | mach<b>i</b>ne   | и                  |
 
 ### Special signs
 
-| Symbol | Description                               | Russian equivalent |
+| Symbol | Description                               | Russian Equivalent |
 | ------ | ----------------------------------------- | ------------------ |
 | '      | stop or a pause in the middle of the word | ъ                  |
 
@@ -100,12 +100,12 @@ Letter `y` works as negation operation for vowels - so the same word but startin
 
 Lispeak syntax is based on lambda calculus.
 
-| Word | Replacement symbol | Symbol in lambda calculus | Description         |
-| ---- | ------------------ | ------------------------- | ------------------- |
-| o    | `(`                | `(`                       | Opening parenthesis |
-| yo   | `)`                | `(`                       | Closing parenthesis |
-| a    | `<-`               | `=`                       | Naming expression   |
-| ya   | `->`               | `λ.`                      | Lambda              |
+| Word | Replacement Symbol | Lambda Calculus Equivalent | Description         |
+| ---- | ------------------ | -------------------------- | ------------------- |
+| o    | `(`                | `(`                        | Opening parenthesis |
+| yo   | `)`                | `(`                        | Closing parenthesis |
+| a    | `<-`               | `=`                        | Naming expression   |
+| ya   | `->`               | `λ.`                       | Lambda              |
 
 Lispeak uses [prefix notation](https://en.wikipedia.org/wiki/Polish_notation):
 
@@ -115,7 +115,7 @@ o operation operand1 operand2 operand3 yo
 
 So let's check some expressions out:
 
-| Lispeak expression        | Replacement symbolic expression | Lambda calculus equivalent |
+| Lispeak Expression        | Replacement Symbolic Expression | Lambda Calculus Equivalent |
 | ------------------------- | ------------------------------- | -------------------------- |
 | X                         | `X`                             | `X`                        |
 | o X Y yo                  | `(X Y)`                         | `(X Y)`                    |
@@ -126,3 +126,28 @@ So let's check some expressions out:
 ## Morphology
 
 The basic idea of Lispeak morphology is phonetic symmetry using pair sounds like `a` and `ya` or `f` and `v` for symmetric meanings like `left` and `right`, `beautiful` and `ugly`, `subject` and `object`, `cold` and `hot`. It will be based on something similar to consonant roots and binyanim in Hebrew.
+
+## Digits and Numerals
+
+Digits in Lispeak are based on vowels in alphabetic order:
+
+| Digit | Lispeak | Russian Pronunciation |
+| ----- | ------- | --------------------- |
+| 0     | `ana`   | `ана`                 |
+| 1     | `yana`  | `яна`                 |
+| 2     | `ena`   | `эна`                 |
+| 3     | `yena`  | `ена`                 |
+| 4     | `ina`   | `ына`                 |
+| 5     | `yina`  | `ина`                 |
+| 6     | `ona`   | `она`                 |
+| 7     | `yona`  | `ёна`                 |
+| 8     | `una`   | `уна`                 |
+| 9     | `yuna`  | `юна`                 |
+
+To construct a numberal you can use first sounds of digits separated by `'` with `a` on the end:
+
+| Number | Lispeak          | Russian Pronunciation |
+| ------ | ---------------- | --------------------- |
+| 12     | `yan'ena`        | `ян-эна`              |
+| 586    | `yin'un'ona`     | `ин-ун-она`           |
+| 9470   | `yun'in'yon'ana` | `юн-ын-ён-ана`        |
