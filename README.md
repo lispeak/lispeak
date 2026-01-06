@@ -81,6 +81,27 @@ Adding `y` before the basic vowel we create a derivative vowel
 
 ### Special signs
 
-| Symbol | Description                               | Russian Equivalent |
+| Symbol | Description                               | Russian equivalent |
 | ------ | ----------------------------------------- | ------------------ |
 | '      | stop or a pause in the middle of the word | ъ                  |
+
+## Syntax
+
+Lispeak syntax is based on lambda calculus.
+
+| Word | Similar symbol | Symbol in lambda calculus | Description         |
+| ---- | -------------- | ------------------------- | ------------------- |
+| o    | `(`            | `(`                       | Opening parenthesis |
+| yo   | `)`            | `(`                       | Closing parenthesis |
+| a    | `<-`           | `=`                       | Naming expression   |
+| ya   | `->`           | `λ.`                      | Lambda              |
+
+So let's check some expressions out:
+
+| Lispeak expression        | Symbolic expression    | Lambda calculus equivalent |
+| ------------------------- | ---------------------- | -------------------------- |
+| X                         | `X`                    | `X`                        |
+| o X Y yo                  | `(X Y)`                | `(X Y)`                    |
+| o a X o Y Z yo yo         | `(<- X (Y Z))`         | `X = (Y Z)`                |
+| o ya X ya Y X yo          | `(-> X -> Y X)`        | `(λ.X λ.Y X)`              |
+| o a X o ya Y ya Z Y yo yo | `(<- X (-> Y -> Z Y))` | `X = (λ.Y λ.Z Y)`          |
