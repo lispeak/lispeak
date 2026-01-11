@@ -29,7 +29,7 @@ The goal of the project is to create a language that you can speak on and compil
 
 ```mermaid
 flowchart TD
-    Text[Text] --> Parser[Parser]
+    Code[Code] --> Parser[Parser]
     Parser --> AST[AST]
     AST --> Brown[Brown dialect translator]
     AST --> Church[Church dialect translator]
