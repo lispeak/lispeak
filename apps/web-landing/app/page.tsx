@@ -155,6 +155,42 @@ export default async function Home() {
         </div>
       </section>
 
+      <section className="section syntax">
+        <h2 className="section-title">Syntax</h2>
+        <p className="syntax-intro">Based on lambda calculus with prefix notation</p>
+
+        <div className="syntax-keywords">
+          <h3 className="syntax-subtitle">Keywords</h3>
+          <div className="keywords-grid">
+            {syntaxKeywords.map((kw) => (
+              <div key={kw.word} className="keyword-card">
+                <span className="keyword-word">{kw.word}</span>
+                <span className="keyword-symbol">{kw.symbol}</span>
+                <span className="keyword-description">{kw.description}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="syntax-examples">
+          <h3 className="syntax-subtitle">Examples</h3>
+          <div className="examples-table">
+            <div className="examples-header">
+              <span>Lispeak</span>
+              <span>Symbolic</span>
+              <span>Lambda Calculus</span>
+            </div>
+            {syntaxExamples.map((ex) => (
+              <div key={ex.lispeak} className="examples-row">
+                <code>{ex.lispeak}</code>
+                <code>{ex.symbolic}</code>
+                <code>{ex.lambda}</code>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="section numerals">
         <h2 className="section-title">Digits & Numerals</h2>
         <p className="numerals-intro">Digits are based on vowels in alphabetic order</p>
@@ -168,42 +204,6 @@ export default async function Home() {
             </div>
           ))}
         </div>
-
-        <section className="section syntax">
-          <h2 className="section-title">Syntax</h2>
-          <p className="syntax-intro">Based on lambda calculus with prefix notation</p>
-
-          <div className="syntax-keywords">
-            <h3 className="syntax-subtitle">Keywords</h3>
-            <div className="keywords-grid">
-              {syntaxKeywords.map((kw) => (
-                <div key={kw.word} className="keyword-card">
-                  <span className="keyword-word">{kw.word}</span>
-                  <span className="keyword-symbol">{kw.symbol}</span>
-                  <span className="keyword-description">{kw.description}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="syntax-examples">
-            <h3 className="syntax-subtitle">Examples</h3>
-            <div className="examples-table">
-              <div className="examples-header">
-                <span>Lispeak</span>
-                <span>Symbolic</span>
-                <span>Lambda Calculus</span>
-              </div>
-              {syntaxExamples.map((ex) => (
-                <div key={ex.lispeak} className="examples-row">
-                  <code>{ex.lispeak}</code>
-                  <code>{ex.symbolic}</code>
-                  <code>{ex.lambda}</code>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
 
         <div className="numerals-examples">
           <h3 className="numerals-subtitle">Building Numerals</h3>
