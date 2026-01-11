@@ -133,21 +133,21 @@ Digits in Lispeak are based on vowels in alphabetic order:
 
 | Digit | Lispeak | Russian Pronunciation |
 | ----- | ------- | --------------------- |
-| 0     | `ana`   | `ана`                 |
-| 1     | `yana`  | `яна`                 |
-| 2     | `ena`   | `эна`                 |
-| 3     | `yena`  | `ена`                 |
-| 4     | `ina`   | `ына`                 |
-| 5     | `yina`  | `ина`                 |
-| 6     | `ona`   | `она`                 |
-| 7     | `yona`  | `ёна`                 |
-| 8     | `una`   | `уна`                 |
-| 9     | `yuna`  | `юна`                 |
+| 0     | `an`    | `ан`                  |
+| 1     | `en`    | `эн`                  |
+| 2     | `in`    | `ын`                  |
+| 3     | `on`    | `он`                  |
+| 4     | `un`    | `ун`                  |
+| 5     | `yan`   | `ян`                  |
+| 6     | `yen`   | `ен`                  |
+| 7     | `yin`   | `ин`                  |
+| 8     | `yon`   | `ён`                  |
+| 9     | `yun`   | `юн`                  |
 
-To construct a numeral you can use first sounds of digits separated by `'` with `a` on the end:
+To construct a numeral combine first sounds of digits with `'` separator:
 
 | Number | Lispeak          | Russian Pronunciation |
 | ------ | ---------------- | --------------------- |
-| 12     | `yan'ena`        | `ян-эна`              |
-| 586    | `yin'un'ona`     | `ин-ун-она`           |
-| 9470   | `yun'in'yon'ana` | `юн-ын-ён-ана`        |
+| 12     | `en'ina`         | `эн-ына`              |
+| 586    | `yan'yon'yena`   | `ян-ён-ена`           |
+| 9470   | `yun'un'yin'ana` | `юн-ун-ин-ана`        |
