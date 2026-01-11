@@ -34,12 +34,12 @@ flowchart TD
     AST --> Brown[Brown dialect]
     AST --> Church[Church dialect]
     AST --> Eich[Eich dialect]
-    Brown --> LispeakVocabulary[Lispeak vocabulary standard library]
-    Church --> ChurchEncoding[Church encoding standard library]
-    Eich --> JavaScriptStd[JavaScript standard library]
     Brown --> SpeakingForm[Speaking form of Lispeak]
     Church --> LambdaCalculus[Lambda-calculus]
     Eich --> JavaScript[JavaScript]
+    SpeakingForm --> LispeakVocabulary(Lispeak vocabulary standard library)
+    LambdaCalculus --> ChurchEncoding(Church encoding standard library)
+    JavaScript --> JavaScriptStd(JavaScript standard library)
 ```
 
 ## Alphabet
