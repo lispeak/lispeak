@@ -68,22 +68,22 @@ const legend = [
 ];
 
 const digits = [
-  { digit: '0', lispeak: 'ana', russian: 'ана' },
-  { digit: '1', lispeak: 'yana', russian: 'яна' },
-  { digit: '2', lispeak: 'ena', russian: 'эна' },
-  { digit: '3', lispeak: 'yena', russian: 'ена' },
-  { digit: '4', lispeak: 'ina', russian: 'ына' },
-  { digit: '5', lispeak: 'yina', russian: 'ина' },
-  { digit: '6', lispeak: 'ona', russian: 'она' },
-  { digit: '7', lispeak: 'yona', russian: 'ёна' },
-  { digit: '8', lispeak: 'una', russian: 'уна' },
-  { digit: '9', lispeak: 'yuna', russian: 'юна' },
+  { digit: '0', lispeak: 'an', russian: 'ан' },
+  { digit: '1', lispeak: 'en', russian: 'эн' },
+  { digit: '2', lispeak: 'in', russian: 'ын' },
+  { digit: '3', lispeak: 'on', russian: 'он' },
+  { digit: '4', lispeak: 'un', russian: 'ун' },
+  { digit: '5', lispeak: 'yan', russian: 'ян' },
+  { digit: '6', lispeak: 'yen', russian: 'ен' },
+  { digit: '7', lispeak: 'yin', russian: 'ин' },
+  { digit: '8', lispeak: 'yon', russian: 'ён' },
+  { digit: '9', lispeak: 'yun', russian: 'юн' },
 ];
 
 const numeralExamples = [
-  { number: '12', lispeak: "yan'ena", russian: 'ян-эна' },
-  { number: '586', lispeak: "yin'un'ona", russian: 'ин-ун-она' },
-  { number: '9470', lispeak: "yun'in'yon'ana", russian: 'юн-ын-ён-ана' },
+  { number: '12', lispeak: "en'ina", russian: 'эн-ына' },
+  { number: '586', lispeak: "yan'yon'yena", russian: 'ян-ён-ена' },
+  { number: '9470', lispeak: "yun'un'yin'ana", russian: 'юн-ун-ин-ана' },
 ];
 
 const syntaxKeywords = [
@@ -169,6 +169,42 @@ export default async function Home() {
           ))}
         </div>
 
+        <section className="section syntax">
+          <h2 className="section-title">Syntax</h2>
+          <p className="syntax-intro">Based on lambda calculus with prefix notation</p>
+
+          <div className="syntax-keywords">
+            <h3 className="syntax-subtitle">Keywords</h3>
+            <div className="keywords-grid">
+              {syntaxKeywords.map((kw) => (
+                <div key={kw.word} className="keyword-card">
+                  <span className="keyword-word">{kw.word}</span>
+                  <span className="keyword-symbol">{kw.symbol}</span>
+                  <span className="keyword-description">{kw.description}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="syntax-examples">
+            <h3 className="syntax-subtitle">Examples</h3>
+            <div className="examples-table">
+              <div className="examples-header">
+                <span>Lispeak</span>
+                <span>Symbolic</span>
+                <span>Lambda Calculus</span>
+              </div>
+              {syntaxExamples.map((ex) => (
+                <div key={ex.lispeak} className="examples-row">
+                  <code>{ex.lispeak}</code>
+                  <code>{ex.symbolic}</code>
+                  <code>{ex.lambda}</code>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <div className="numerals-examples">
           <h3 className="numerals-subtitle">Building Numerals</h3>
           <p className="numerals-note">Combine first sounds of digits with ' separator</p>
@@ -184,46 +220,15 @@ export default async function Home() {
         </div>
       </section>
 
-      <section className="section syntax">
-        <h2 className="section-title">Syntax</h2>
-        <p className="syntax-intro">Based on lambda calculus with prefix notation</p>
-
-        <div className="syntax-keywords">
-          <h3 className="syntax-subtitle">Keywords</h3>
-          <div className="keywords-grid">
-            {syntaxKeywords.map((kw) => (
-              <div key={kw.word} className="keyword-card">
-                <span className="keyword-word">{kw.word}</span>
-                <span className="keyword-symbol">{kw.symbol}</span>
-                <span className="keyword-description">{kw.description}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="syntax-examples">
-          <h3 className="syntax-subtitle">Examples</h3>
-          <div className="examples-table">
-            <div className="examples-header">
-              <span>Lispeak</span>
-              <span>Symbolic</span>
-              <span>Lambda Calculus</span>
-            </div>
-            {syntaxExamples.map((ex) => (
-              <div key={ex.lispeak} className="examples-row">
-                <code>{ex.lispeak}</code>
-                <code>{ex.symbolic}</code>
-                <code>{ex.lambda}</code>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <footer className="footer">
         <p className="footer-author">
           Lispeak is developed by{' '}
-          <a href="https://sergeyshpadyrev.github.io/" target="_blank" rel="noopener noreferrer" className="footer-link">
+          <a
+            href="https://sergeyshpadyrev.github.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
             Sergey Shpadyrev
           </a>
         </p>
