@@ -31,15 +31,15 @@ The goal of the project is to create a language that you can speak on and compil
 flowchart TD
     Text[Text] --> Parser[Parser]
     Parser --> AST[AST]
-    AST --> Brown[Brown dialect]
-    AST --> Church[Church dialect]
-    AST --> Eich[Eich dialect]
+    AST --> Brown[Brown dialect translator]
+    AST --> Church[Church dialect translator]
+    AST --> Eich[Eich dialect translator]
     Brown --> SpeakingForm[Speaking form of Lispeak]
     Church --> LambdaCalculus[Lambda-calculus]
     Eich --> JavaScript[JavaScript]
-    SpeakingForm --> LispeakVocabulary(Lispeak vocabulary standard library)
-    LambdaCalculus --> ChurchEncoding(Church encoding standard library)
-    JavaScript --> JavaScriptStd(JavaScript standard library)
+    SpeakingForm -- LispeakVocabulary(Lispeak vocabulary standard library)
+    LambdaCalculus -- ChurchEncoding(Church encoding standard library)
+    JavaScript -- JavaScriptStd(JavaScript standard library)
 ```
 
 ## Alphabet
