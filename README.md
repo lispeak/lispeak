@@ -29,7 +29,8 @@ The goal of the project is to create a language that you can speak on and compil
 
 ```mermaid
 flowchart TD
-    Parser[Parser (.lspk)] --> AST[AST]
+    Text[Text] --> Parser[Parser]
+    Parser --> AST[AST]
     AST --> Brown[Brown dialect]
     AST --> Church[Church dialect]
     AST --> Eich[Eich dialect]
