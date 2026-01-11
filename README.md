@@ -25,6 +25,22 @@ The goal of the project is to create a language that you can speak on and compil
 - Language should sound well
 - Language should be fully compatible with words from any other natural language
 
+## Architecture
+
+```mermaid
+flowchart TD
+    Parser[Parser (.lspk)] --> AST[AST]
+    AST --> Brown[Brown dialect]
+    AST --> Church[Church dialect]
+    AST --> Eich[Eich dialect]
+    Brown --> LispeakVocabulary[Lispeak vocabulary standard library]
+    Church --> ChurchEncoding[Church encoding standard library]
+    Eich --> JavaScriptStd[JavaScript standard library]
+    Brown --> SpeakingForm[Speaking form of Lispeak]
+    Church --> LambdaCalculus[Lambda-calculus]
+    Eich --> JavaScript[JavaScript]
+```
+
 ## Alphabet
 
 Lispeak uses the following letters:
