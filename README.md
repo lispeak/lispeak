@@ -27,6 +27,8 @@ The goal of the project is to create a language that you can speak on and compil
 
 ## Architecture
 
+Lispeak has three a bit different dialects that can be translated to speech, lambda-calculus or JavaScript.
+
 ```mermaid
 flowchart TD
     Code((Lispeak Code)) --> Parser[Parser]
@@ -35,8 +37,8 @@ flowchart TD
     AST --> Church[Church dialect translator]
     AST --> Eich[Eich dialect translator]
     Brown --> SpeakingForm((Pronounceable speech))
-    Church --> LambdaCalculus((Lambda-calculus program code))
-    Eich --> JavaScript((JavaScript program code))
+    Church --> LambdaCalculus((Lambda-calculus code))
+    Eich --> JavaScript((JavaScript code))
     SpeakingForm ---|using| LispeakVocabulary(Lispeak vocabulary standard library)
     LambdaCalculus ---|using| ChurchEncoding(Church encoding standard library)
     JavaScript ---|using| JavaScriptStd(JavaScript standard library)
