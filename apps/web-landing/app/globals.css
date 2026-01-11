@@ -296,120 +296,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--accent);
+  font-size: 1rem;
+  padding: 0.25rem 0;
 }
 
-.arch-connector-single {
-  width: 2px;
-  height: 2rem;
-  background: linear-gradient(180deg, var(--accent) 0%, rgba(99, 102, 241, 0.3) 100%);
-  position: relative;
-}
-
-.arch-connector-single::after {
-  content: '';
-  position: absolute;
-  bottom: -4px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 6px solid rgba(99, 102, 241, 0.3);
-}
-
-.arch-dialect .arch-connector-single {
-  height: 1.5rem;
-}
-
-.arch-dialect .arch-connector-single::after {
-  display: none;
-}
-
-.arch-connector-triple {
-  position: relative;
+.arch-horizontal-line {
   width: 100%;
-  max-width: 700px;
-  height: 3rem;
-  margin: 0.5rem 0;
-}
-
-.arch-line {
-  position: absolute;
+  max-width: 900px;
+  height: 2px;
   background: var(--accent);
   opacity: 0.4;
-}
-
-.arch-line-left {
-  top: 0;
-  left: 50%;
-  width: 2px;
-  height: 50%;
-  transform-origin: top center;
-}
-
-.arch-line-left::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: calc(50% - 150px);
-  height: 2px;
-  background: var(--accent);
-  opacity: 1;
-  transform: translateX(-100%);
-}
-
-.arch-line-left::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: calc(-50% + 150px);
-  width: 2px;
-  height: 50%;
-  background: var(--accent);
-  opacity: 1;
-  transform: translateX(-100%);
-}
-
-.arch-line-center {
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 2px;
-  height: 100%;
-}
-
-.arch-line-right {
-  top: 0;
-  right: 50%;
-  width: 2px;
-  height: 50%;
-  transform-origin: top center;
-}
-
-.arch-line-right::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  right: 0;
-  width: calc(50% - 150px);
-  height: 2px;
-  background: var(--accent);
-  opacity: 1;
-  transform: translateX(100%);
-}
-
-.arch-line-right::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  right: calc(-50% + 150px);
-  width: 2px;
-  height: 50%;
-  background: var(--accent);
-  opacity: 1;
-  transform: translateX(100%);
+  margin-bottom: 0.5rem;
 }
 
 .arch-stdlib {
@@ -425,22 +323,11 @@ body {
 @media (max-width: 768px) {
   .arch-row-dialects {
     grid-template-columns: 1fr;
-    gap: 3rem;
+    gap: 2rem;
   }
 
-  .arch-connector-triple {
+  .arch-horizontal-line {
     display: none;
-  }
-
-  .arch-row-dialects::before {
-    content: '';
-    display: block;
-    width: 2px;
-    height: 2rem;
-    background: linear-gradient(180deg, var(--accent) 0%, rgba(99, 102, 241, 0.3) 100%);
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
   }
 }
 

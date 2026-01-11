@@ -151,7 +151,7 @@ export default async function Home() {
             </div>
           </div>
 
-          <div className="arch-connector arch-connector-single" />
+          <div className="arch-connector">↓</div>
 
           <div className="arch-row">
             <div className="arch-node arch-node-process">
@@ -159,7 +159,7 @@ export default async function Home() {
             </div>
           </div>
 
-          <div className="arch-connector arch-connector-single" />
+          <div className="arch-connector">↓</div>
 
           <div className="arch-row">
             <div className="arch-node arch-node-primary">
@@ -167,18 +167,15 @@ export default async function Home() {
             </div>
           </div>
 
-          <div className="arch-connector arch-connector-triple">
-            <div className="arch-line arch-line-left" />
-            <div className="arch-line arch-line-center" />
-            <div className="arch-line arch-line-right" />
-          </div>
+          <div className="arch-connector">↓</div>
+          <div className="arch-horizontal-line" />
 
           <div className="arch-row arch-row-dialects">
             <div className="arch-dialect">
               <div className="arch-node arch-node-brown">
                 <span className="arch-node-label">Brown Dialect</span>
               </div>
-              <div className="arch-connector arch-connector-single" />
+              <div className="arch-connector">↓</div>
               <div className="arch-node arch-node-output arch-node-speech">
                 <div className="arch-node-icon">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -199,7 +196,7 @@ export default async function Home() {
               <div className="arch-node arch-node-church">
                 <span className="arch-node-label">Church Dialect</span>
               </div>
-              <div className="arch-connector arch-connector-single" />
+              <div className="arch-connector">↓</div>
               <div className="arch-node arch-node-output arch-node-lambda">
                 <span className="arch-node-icon arch-node-icon-text">λ</span>
                 <span className="arch-node-label">Lambda Calculus</span>
@@ -213,7 +210,7 @@ export default async function Home() {
               <div className="arch-node arch-node-eich">
                 <span className="arch-node-label">Eich Dialect</span>
               </div>
-              <div className="arch-connector arch-connector-single" />
+              <div className="arch-connector">↓</div>
               <div className="arch-node arch-node-output arch-node-js">
                 <div className="arch-node-icon">
                   <svg viewBox="0 0 24 24" fill="currentColor">
