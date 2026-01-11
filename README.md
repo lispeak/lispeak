@@ -37,9 +37,9 @@ flowchart TD
     Brown --> SpeakingForm[Speaking form of Lispeak]
     Church --> LambdaCalculus[Lambda-calculus]
     Eich --> JavaScript[JavaScript]
-    LispeakVocabulary(Lispeak vocabulary standard library) --> SpeakingForm
-    ChurchEncoding(Church encoding standard library) --> LambdaCalculus
-    JavaScriptStd(JavaScript standard library) --> JavaScript
+    SpeakingForm --- LispeakVocabulary(Lispeak vocabulary standard library)
+    LambdaCalculus --- ChurchEncoding(Church encoding standard library)
+    JavaScript --- JavaScriptStd(JavaScript standard library)
 ```
 
 ## Alphabet
