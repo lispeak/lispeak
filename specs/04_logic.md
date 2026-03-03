@@ -20,9 +20,9 @@ In Lispeak logic is boolean.
 ## Examples
 
 ```
-i ta = tu
-ye ta ta = ta
-ye ta tu = tu
-yo ta tu = ta
+i da = tu
+ye da da = da
+ye da tu = tu
+yo da tu = da
 yo tu tu = tu
 ```
