@@ -46,63 +46,7 @@ flowchart TD
 
 ## Alphabet
 
-Lispeak uses the following letters:
-
-```
-abcdefghijklmnoprstuvxyz
-```
-
-### Consonants
-
-| Symbol | Sound in English | Russian Equivalent |
-| ------ | ---------------- | ------------------ |
-| b      | bagel            | б                  |
-| c      | <b>sh</b>ark     | ш                  |
-| d      | desk             | д                  |
-| f      | fat              | ф                  |
-| g      | great            | г                  |
-| h      | Ba<b>ch</b>      | х                  |
-| j      | mea<b>s</b>ure   | ж                  |
-| k      | kill             | к                  |
-| l      | lake             | л                  |
-| m      | maybe            | м                  |
-| n      | neck             | н                  |
-| p      | pepper           | п                  |
-| r      | river            | р                  |
-| s      | snake            | с                  |
-| t      | table            | т                  |
-| v      | vast             | в                  |
-| x      | <b>ch</b>ipotle  | ч                  |
-| y      | may / (fr.) Paul | й/ь                |
-| z      | ooze             | з                  |
-
-### Vowels
-
-Basic vowels are
-
-| Symbol | Sound in English | Russian Equivalent |
-| ------ | ---------------- | ------------------ |
-| a      | father           | а                  |
-| o      | open             | о                  |
-| e      | bet              | э                  |
-| u      | moon             | у                  |
-| i      | -                | ы                  |
-
-Adding `y` before the basic vowel we create a derivative vowel
-
-| Symbol | Sound in English | Russian Equivalent |
-| ------ | ---------------- | ------------------ |
-| ya     | yard             | я                  |
-| yo     | yoga             | ё                  |
-| ye     | yes              | е                  |
-| yu     | <b>u</b>se       | ю                  |
-| yi     | mach<b>i</b>ne   | и                  |
-
-### Special signs
-
-| Symbol | Description                               | Russian Equivalent |
-| ------ | ----------------------------------------- | ------------------ |
-| '      | stop or a pause in the middle of the word | ъ                  |
+[Alphabet spec](./specs//01_alphabet.md)
 
 ## Symmetry
 
