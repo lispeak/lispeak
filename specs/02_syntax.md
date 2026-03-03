@@ -48,14 +48,14 @@ Because in Polish notation it's not easy to chain function calls we need two spe
 | Word | Replacement Symbol | Description                 |
 | ---- | ------------------ | --------------------------- |
 | u    | `<<`               | Chaining by first parameter |
-| yu   | `>>`               | Chaining by last parameter  |
+| a    | `>>`               | Chaining by last parameter  |
 
 Examples:
 
 | Lispeak Expression | Replacement Symbolic Expression | Equivalent |
 | ------------------ | ------------------------------- | ---------- |
-| o u a b c yo       | `(<< a b c)`                    | `c(b(a))`  |
-| o yu a b c yo      | `(>> a b c)`                    | `c(b(a))`  | -->
+| o u x y z e        | `(<< x y z)`                    | `z(y(x))`  |
+| o a x y z e        | `(>> x y z)`                    | `z(y(x))`  |
 
 <!-- TODO: something is wrong here. fix -->
 <!-- Based on https://github.com/una-language/una-language/blob/master/DOCS.md#chaining-symmetry -->

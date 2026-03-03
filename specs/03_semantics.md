@@ -13,17 +13,18 @@ verb'modifier1modifier2modifier3
 
 ## Tense
 
-Tense is based on group ℤ ⋊ Z₂ (semidirect product Z with Z₂) together with `e` and `ye`:
+Tense is based on group ℤ ⋊ Z₂ (semidirect product Z with Z₂) together with `i` and `ii`:
 
-| Type   | Suffix | Straight form | Verb suffix form |
-| ------ | ------ | ------------- | ---------------- |
-| Past   | `ru`   | `(ru verb)`   | `verb'ru`        |
-| Future | `ra`   | `(ra verb)`   | `verb'ra`        |
+| Type    | Suffix | Straight form | Verb suffix form |
+| ------- | ------ | ------------- | ---------------- |
+| Past    | `ra`   | `(ra verb)`   | `verb'ra`        |
+| Present | `-`    | `verb`        | `verb`           |
+| Future  | `ru`   | `(ru verb)`   | `verb'ru`        |
 
 Example of negation:
 
 ```
-ii (ra verb) = ru verb
+i (ru verb) = ra verb
 ```
 
 ## Aspect
@@ -32,26 +33,26 @@ Aspect is based on group Z₂:
 
 | Type               | Suffix | Straight form | Verb suffix form | Default suffix form |
 | ------------------ | ------ | ------------- | ---------------- | ------------------- |
-| Complete (default) | `lu`   | `(lu verb)`   | `verb'lu`        | `verb`              |
-| Incomplete process | `la`   | `(la verb)`   | `verb'la`        | `verb'tyu`          |
+| Complete (default) | `da`   | `(da verb)`   | `verb'da`        | `verb`              |
+| Incomplete process | `du`   | `(du verb)`   | `verb'du`        | `verb'du`           |
 
 Example of negation:
 
 ```
-
+i (du verb) = da verb
 ```
 
 ## Voice
 
 Voice is based on group Z₂:
 
-| Type             | Suffix | Straight form | Verb suffix form |
-| ---------------- | ------ | ------------- | ---------------- |
-| Active (default) | ``     | `(re verb)`   | `verb're`        |
-| Passive          | `rye`  | `(rya verb)`  | `verb'rye`       |
+| Type             | Suffix | Straight form | Verb suffix form | Default suffix form |
+| ---------------- | ------ | ------------- | ---------------- | ------------------- |
+| Active (default) | `za`   | `(za verb)`   | `verb'za`        | `verb`              |
+| Passive          | `zu`   | `(zu verb)`   | `verb'zu`        | `verb'zu`           |
 
 Example of negation:
 
 ```
-ya (rya verb) = re verb
+i (zu verb) = za verb
 ```
