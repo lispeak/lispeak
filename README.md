@@ -11,9 +11,9 @@ Lispeak is inspired by:
 - [Lojban](https://en.wikipedia.org/wiki/Lojban)
 - [Group theory](https://en.wikipedia.org/wiki/Group_theory)
 
-Originally the idea of this language was described and explained in [this post](https://habr.com/ru/articles/902574) of mine (in Russian)
+Originally the idea of this language was described and explained in [this post](https://habr.com/ru/articles/902574) of mine.
 
-## Features
+## Idea
 
 The goal of the project is to create a language that you can speak on and compile at the same time.
 
@@ -24,6 +24,13 @@ The goal of the project is to create a language that you can speak on and compil
 - Every sentence should be executable on computer
 - Language should sound well
 - Language should be fully compatible with words from any other natural language
+
+The language should be:
+
+- Mathematical
+- Linguistic
+- Musical
+- Sacred
 
 ## Architecture
 
