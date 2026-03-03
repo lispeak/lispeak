@@ -41,7 +41,7 @@ Every meaning in Lispeak should be a group:
 | Negation      | `i`     | i verb          | Negates the meaning     |
 | Identity      | `ii`    | ii verb         | Leaves the same meaning |
 
-<!-- ## Chaining
+## Chaining
 
 Because in Polish notation it's not easy to chain function calls we need two special chaining operations:
 
@@ -58,4 +58,4 @@ Examples:
 | o a x y z e        | `(>> x y z)`                    | `z(y(x))`  |
 
 <!-- TODO: something is wrong here. fix -->
-<!-- Based on https://github.com/una-language/una-language/blob/master/DOCS.md#chaining-symmetry -->
+<!-- Based on https://github.com/una-language/una-language/blob/master/DOCS.md#chaining-symmetry
