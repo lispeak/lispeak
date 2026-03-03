@@ -1,5 +1,5 @@
 // From God
-export const existence = 'ba';
+export const zero = 'ba';
 export const truth = 'da';
 export const space = 'ga';
 export const consciousness = 'ra';
