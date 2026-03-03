@@ -42,10 +42,10 @@ ye (ryu verb) = ru verb
 
 Aspect is based on group Z₂:
 
-| Type                 | Suffix | Straight form | Verb suffix form |
-| -------------------- | ------ | ------------- | ---------------- |
-| Complete             | `ro`   | `(ro verb)`   | `verb'ro`        |
-| Incomplete (process) | `ryo`  | `(ryo verb)`  | `verb'ryo`       |
+| Type               | Suffix | Straight form | Verb suffix form |
+| ------------------ | ------ | ------------- | ---------------- |
+| Complete (default) | `ro`   | `(ro verb)`   | `verb'ro`        |
+| Incomplete process | `ryo`  | `(ryo verb)`  | `verb'ryo`       |
 
 Example of negation:
 
@@ -57,10 +57,10 @@ ye (ryo verb) = ro verb
 
 Aspect is based on group Z₂:
 
-| Type    | Suffix | Straight form | Verb suffix form |
-| ------- | ------ | ------------- | ---------------- |
-| Active  | `re`   | `(re verb)`   | `verb're`        |
-| Passive | `rye`  | `(rye verb)`  | `verb'rye`       |
+| Type             | Suffix | Straight form | Verb suffix form |
+| ---------------- | ------ | ------------- | ---------------- |
+| Active (default) | `re`   | `(re verb)`   | `verb're`        |
+| Passive          | `rye`  | `(rye verb)`  | `verb'rye`       |
 
 Example of negation:
 
