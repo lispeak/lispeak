@@ -1,1 +1,1 @@
-export * from './modules/roots';
+export * from './modules/words';

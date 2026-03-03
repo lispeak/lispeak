@@ -6,7 +6,10 @@
     "outDir": "dist",
     "rootDir": "src",
     "sourceMap": true,
-    "tsBuildInfoFile": ".turbo/test.tsbuildinfo"
+    "tsBuildInfoFile": ".turbo/test.tsbuildinfo",
+    "paths": {
+      "@repo/core": ["../../packages/core/src"]
+    },
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
