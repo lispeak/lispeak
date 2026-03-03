@@ -24,3 +24,5 @@ Examples:
 | o a X o Y Z yo yo              | `(<- X (Y Z))`                  | `X = (Y Z)`                       |
 | o ya X o ya Y X yo yo          | `(-> X (-> Y X))`               | `λX. λY. X`                       |
 | o a X o ya Y o ya Z Y yo yo yo | `(<- X (-> Y (-> Z Y)))`        | `X = λY. λZ. Y`                   |
+
+In spoken Lispeak, each successive opening parenthesis “o” is pronounced one pitch higher and each closing “yo” one pitch lower, so that syntactic nesting is encoded directly in melodic contour.
