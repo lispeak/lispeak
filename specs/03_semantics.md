@@ -55,6 +55,15 @@ ye (ryo verb) = ro verb
 
 ## Voice
 
-```
+Aspect is based on group Z₂:
 
+| Type    | Suffix | Straight form | Verb suffix form |
+| ------- | ------ | ------------- | ---------------- |
+| Active  | `re`   | `(re verb)`   | `verb're`        |
+| Passive | `rye`  | `(rye verb)`  | `verb'rye`       |
+
+Example of negation:
+
+```
+ye (rye verb) = re verb
 ```
