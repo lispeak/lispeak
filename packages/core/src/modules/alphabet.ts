@@ -67,20 +67,13 @@ export const oppositeLetter = (letter: string): string => {
       return 'e';
     case 'u':
       return 'a';
-    case 'ya':
-      return 'yu';
-    case 'ye':
-      return 'yo';
-    case 'yo':
-      return 'ye';
-    case 'yu':
-      return 'ya';
     default:
       throw new Error(`Invalid letter: ${letter}`);
   }
 };
 
-export const getOpposition = (word: string) =>
+export const getCenter = (left: string, right: string) => left + 'i' + right;
+export const getLeft = (word: string) =>
   word
     .split('')
     .map((letter) => oppositeLetter(letter))

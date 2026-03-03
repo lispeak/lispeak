@@ -1,8 +1,8 @@
-import { getOpposition } from './alphabet';
+import { getLeft } from './alphabet';
 
 // Logic
 export const booleanTrue = 'da';
-export const booleanFalse = getOpposition(booleanTrue);
+export const booleanFalse = getLeft(booleanTrue);
 export const booleanOperationNot = 'i';
 export const booleanOperationAnd = 'ye';
 export const booleanOperationOr = 'yo';
@@ -12,11 +12,10 @@ export const directionForward = 'baj';
 export const directionRight = 'baz';
 export const directionUp = 'bav';
 
-export const directionBackward = getOpposition(directionForward);
-export const directionLeft = getOpposition(directionRight);
-export const directionDown = getOpposition(directionUp);
+export const directionBackward = getLeft(directionForward);
+export const directionLeft = getLeft(directionRight);
+export const directionDown = getLeft(directionUp);
 
 // Time
 export const timeFuture = 'dar';
-export const timePresent = 'dir';
-export const timePast = getOpposition(timeFuture);
+export const timePast = getLeft(timeFuture);
