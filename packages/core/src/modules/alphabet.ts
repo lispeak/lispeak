@@ -72,7 +72,7 @@ export const oppositeLetter = (letter: string): string => {
   }
 };
 
-export const getCenter = (left: string, right: string) => left + 'i' + right;
+export const getCenter = (left: string, right: string) => right + 'i' + left;
 export const getLeft = (word: string) =>
   word
     .split('')

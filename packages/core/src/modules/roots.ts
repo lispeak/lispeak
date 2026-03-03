@@ -1,4 +1,4 @@
-import { getLeft } from './alphabet';
+import { getCenter, getLeft } from './alphabet';
 
 // Logic
 export const booleanTrue = 'da';
@@ -19,3 +19,4 @@ export const directionDown = getLeft(directionUp);
 // Time
 export const timeFuture = 'dar';
 export const timePast = getLeft(timeFuture);
+export const timePresent = getCenter(timePast, timeFuture);
