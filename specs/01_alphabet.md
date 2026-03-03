@@ -54,11 +54,11 @@ Adding `y` before the basic vowel we create a derivative vowel
 So vowels form a symmetryic circle:
 
 ```
- ya |  a |  yu
+ o  | ya |  a
 ----|----|----
- o  |  i |  u
+ yo | i  |  ye
 ----|----|----
- yo |  e |  ye
+ u  | yu |  e
 
 ```
 
