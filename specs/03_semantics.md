@@ -7,19 +7,17 @@ Every meaning in Lispeak should be a group:
 - It should have neutral element (identity)
 - It should have negation operation (not)
 
-Neutral element and negation has phonetic difference. Letter `y` works as negation operation for vowels - so the same word but starting with `o` and starting with `yo` have opposite meanings.
+| Group meaning | Symbols | Lispeak Example | Meaning                 |
+| ------------- | ------- | --------------- | ----------------------- |
+| Identity      | e       | e verb          | Leaves the same meaning |
+| Negation      | ye      | ye verb         | Negates the meaning     |
 
-## Noun / verb
+The words in Lispeak can be only verbs and nouns:
 
-- Verb is function
-- Noun is value
-- Verb always starts with vowel
-- Noun always starts with consonant
+- Verb is function. Its name always starts with vowel
+- Noun is value. Its name always starts with consonant
 
-Verb is arrow function from one value to another.
-This arrow itselft creates two values based on philosophy "Difference and Repetition" by Gilles Deleuze.
-
-## Suffix modifiers
+!!!!TODO: Make chainging of operations as in ramda (una)
 
 Every verb can have suffix modifiers that go after `'` letter:
 
@@ -27,26 +25,32 @@ Every verb can have suffix modifiers that go after `'` letter:
 verb'mod1mod2mod3
 ```
 
-### Active / passive voice
+## Tense
+
+Tense is based on group ℤ ⋊ Z₂ (semidirect product Z with Z₂) together with `e` and `ye`:
+
+| Meaning | Symbols | Straight form | Verb suffix form |
+| ------- | ------- | ------------- | ---------------- |
+| Past    | ru      | (ru verb)     | verb'ru          |
+| Future  | ryu     | (ryu verb)    | verb'ryu         |
+
+Example of negation:
+
+```
+ye (ryu verb) = ru verb
+```
+
+## Aspect
+
+Aspect is based on group Z₂:
+
+| Type                 | Suffix | Straight form | Verb suffix form |
+| -------------------- | ------ | ------------- | ---------------- |
+| Complete             | `ro`   | (ro verb)     | verb'ro          |
+| Incomplete (process) | `ryo`  | (ryo verb)    | verb'ryo         |
+
+## Voice
 
 ```
 
 ```
-
-### Past / future
-
-Time is based on group ℤ ⋊ Z₂ (semidirect product Z with Z₂):
-
-| Group meaning   | Meaning | Symbols | Example                                     | Verb suffix form |
-| --------------- | ------- | ------- | ------------------------------------------- | ---------------- |
-| Identity        | Present | ro      | ro go = go                                  | go               |
-| Shift to past   | Past    | ru      | ru go = went                                | go'ru            |
-| Shift to future | Future  | ryu     | ryu go = will go                            | go'ryu           |
-| Reflection      | Negate  | ryo     | ryo (ryu go) = ryo (will go) = ru go = went | -                |
-
-### Complete / process
-
-| Type                    | Suffix | Pseudo Lispeak Example |
-| ----------------------- | ------ | ---------------------- |
-| Complete                | `ro`   | go'ruro - went         |
-| Incomplete (in process) | `ryo`  | go'ruryo - was going   |
