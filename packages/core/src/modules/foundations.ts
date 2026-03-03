@@ -1,3 +1,4 @@
+// From God
 export const existence = 'ba';
 export const truth = 'da';
 export const space = 'ga';
