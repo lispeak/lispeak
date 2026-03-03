@@ -12,7 +12,7 @@ Lispeak syntax is based on lambda calculus.
 Lispeak uses [Polish prefix notation](https://en.wikipedia.org/wiki/Polish_notation):
 
 ```
-o operation operand1 operand2 operand3 yo
+o operation operand1 operand2 operand3 e
 ```
 
 Examples:
