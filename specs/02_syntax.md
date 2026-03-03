@@ -38,8 +38,8 @@ Every meaning in Lispeak should be a group:
 
 | Group meaning | Symbols | Lispeak Example | Meaning                 |
 | ------------- | ------- | --------------- | ----------------------- |
-| Identity      | `i`     | i verb          | Leaves the same meaning |
-| Negation      | `ii`    | ii verb         | Negates the meaning     |
+| Negation      | `i`     | i verb          | Negates the meaning     |
+| Identity      | `ii`    | ii verb         | Leaves the same meaning |
 
 <!-- ## Chaining
 

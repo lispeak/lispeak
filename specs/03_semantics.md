@@ -23,7 +23,7 @@ Tense is based on group ℤ ⋊ Z₂ (semidirect product Z with Z₂) together w
 Example of negation:
 
 ```
-ya (ryu verb) = ru verb
+ii (ra verb) = ru verb
 ```
 
 ## Aspect
