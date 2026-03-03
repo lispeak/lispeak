@@ -6,7 +6,7 @@ In Lispeak logic is boolean.
 
 | Word | Meaning | Additional meaning |
 | ---- | ------- | ------------------ |
-| `ta` | true    | Yes                |
+| `da` | true    | Yes                |
 | `tu` | false   | No                 |
 
 ## Operations
@@ -14,15 +14,15 @@ In Lispeak logic is boolean.
 | Word | Meaning |
 | ---- | ------- |
 | `i`  | not     |
-| `ya` | and     |
-| `yu` | or      |
+| `ye` | and     |
+| `yo` | or      |
 
 ## Examples
 
 ```
 i ta = tu
-ya ta ta = ta
-ya ta tu = tu
-yu ta tu = ta
-yu tu tu = tu
+ye ta ta = ta
+ye ta tu = tu
+yo ta tu = ta
+yo tu tu = tu
 ```
