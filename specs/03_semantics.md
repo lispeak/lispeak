@@ -29,7 +29,7 @@ i (ru verb) = ra verb
 
 ## Aspect
 
-Aspect is based on group Z₂:
+Aspect is based on group Z₂ together with `i` and `ii`:
 
 | Type               | Suffix | Straight form | Verb suffix form | Default suffix form |
 | ------------------ | ------ | ------------- | ---------------- | ------------------- |
@@ -44,7 +44,7 @@ i (du verb) = da verb
 
 ## Voice
 
-Voice is based on group Z₂:
+Voice is based on group Z₂ together with `i` and `ii`:
 
 | Type             | Suffix | Straight form | Verb suffix form | Default suffix form |
 | ---------------- | ------ | ------------- | ---------------- | ------------------- |
