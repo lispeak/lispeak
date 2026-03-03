@@ -5,7 +5,7 @@ Lispeak syntax is based on lambda calculus.
 | Word | Replacement Symbol | Lambda Calculus Equivalent | Description         |
 | ---- | ------------------ | -------------------------- | ------------------- |
 | o    | `(`                | `(`                        | Opening parenthesis |
-| yo   | `)`                | `(`                        | Closing parenthesis |
+| yo   | `)`                | `)`                        | Closing parenthesis |
 | a    | `<-`               | `=`                        | Naming expression   |
 | ya   | `->`               | `λ.`                       | Lambda              |
 
