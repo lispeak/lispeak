@@ -9,15 +9,13 @@ Every meaning in Lispeak should be a group:
 
 | Group meaning | Symbols | Lispeak Example | Meaning                 |
 | ------------- | ------- | --------------- | ----------------------- |
-| Identity      | e       | e verb          | Leaves the same meaning |
-| Negation      | ye      | ye verb         | Negates the meaning     |
+| Identity      | a       | a verb          | Leaves the same meaning |
+| Negation      | ya      | ya verb         | Negates the meaning     |
 
 The words in Lispeak can be only verbs and nouns:
 
 - Verb is function. Its name always starts with vowel
 - Noun is value. Its name always starts with consonant
-
-!!!!TODO: Make chainging of operations as in ramda (una)
 
 Every verb can have suffix modifiers that go after `'` letter:
 

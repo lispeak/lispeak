@@ -6,8 +6,8 @@ Lispeak syntax is based on lambda calculus.
 | ---- | ------------------ | --------------------------------- | ------------------- |
 | o    | `(`                | `(`                               | Opening parenthesis |
 | yo   | `)`                | `)`                               | Closing parenthesis |
-| a    | `<-`               | `=`                               | Naming expression   |
-| ya   | `->`               | `λ.`                              | Lambda              |
+| e    | `<-`               | `=`                               | Naming expression   |
+| ye   | `->`               | `λ.`                              | Lambda              |
 
 Lispeak uses [Polish prefix notation](https://en.wikipedia.org/wiki/Polish_notation):
 
@@ -21,8 +21,19 @@ Examples:
 | ------------------------------ | ------------------------------- | --------------------------------- |
 | X                              | `X`                             | `X`                               |
 | o X Y yo                       | `(X Y)`                         | `X Y`                             |
-| o a X o Y Z yo yo              | `(<- X (Y Z))`                  | `X = (Y Z)`                       |
-| o ya X o ya Y X yo yo          | `(-> X (-> Y X))`               | `λX. λY. X`                       |
-| o a X o ya Y o ya Z Y yo yo yo | `(<- X (-> Y (-> Z Y)))`        | `X = λY. λZ. Y`                   |
+| o e X o Y Z yo yo              | `(<- X (Y Z))`                  | `X = (Y Z)`                       |
+| o ye X o ye Y X yo yo          | `(-> X (-> Y X))`               | `λX. λY. X`                       |
+| o e X o ye Y o ye Z Y yo yo yo | `(<- X (-> Y (-> Z Y)))`        | `X = λY. λZ. Y`                   |
 
 In spoken Lispeak, each successive opening parenthesis “o” is pronounced one pitch higher and each closing “yo” one pitch lower, so that syntactic nesting is encoded directly in melodic contour.
+
+## Chaining
+
+Because in Polish notation it's not easy to chain function calls we need two special chaining operations:
+
+| Word | Replacement Symbol | Description                 |
+| ---- | ------------------ | --------------------------- |
+| u    | `<\|`              | Chaining by first parameter |
+| yu   | `\|>`              | Chaining by last parameter  |
+
+<!-- TODO: add example -->
