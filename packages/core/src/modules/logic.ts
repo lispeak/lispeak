@@ -1,6 +1,11 @@
 export const da = true;
 export const tu = false;
 
+// not
 export const i = (x: boolean) => !x;
-export const ya = (...xs: boolean[]) => xs.every((x) => x);
-export const yu = (...xs: boolean[]) => xs.some((x) => x);
+
+// and
+export const ye = (...xs: boolean[]) => xs.every((x) => x);
+
+// or
+export const yo = (...xs: boolean[]) => xs.some((x) => x);
