@@ -19,6 +19,10 @@ importers:
         version: 5.9.2
 
   apps/test:
+    dependencies:
+      '@repo/core':
+        specifier: workspace:*
+        version: link:../../packages/core
     devDependencies:
       '@repo/config-eslint':
         specifier: workspace:*

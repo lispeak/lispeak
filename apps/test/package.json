@@ -10,12 +10,12 @@
       "default": "./dist/index.js"
     }
   },
-  "dependencies": {
-    "@repo/core": "*"
-  },
   "files": [
     "dist"
   ],
+  "dependencies": {
+    "@repo/core": "workspace:*"
+  },
   "scripts": {
     "dev": "tsx src/index.ts",
     "build": "tsc",
