@@ -32,7 +32,7 @@ abcdefghijklmnoprstuvxyz
 
 ## Consonant oppositions
 
-Some consonants form oppositions:
+Some consonants form natural oppositions:
 
 - `b` / `p`
 - `c` / `j`
@@ -40,6 +40,12 @@ Some consonants form oppositions:
 - `f`/`v`
 - `g`/`k`
 - `s`/`z`
+
+For some I made artificial oppositions:
+
+- `x` / `'l`
+- `m` / `n`
+- `h` / `r`
 
 ## Vowels
 
