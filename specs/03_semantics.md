@@ -47,6 +47,12 @@ Aspect is based on group Z₂:
 | Complete             | `ro`   | `(ro verb)`   | `verb'ro`        |
 | Incomplete (process) | `ryo`  | `(ryo verb)`  | `verb'ryo`       |
 
+Example of negation:
+
+```
+ye (ryo verb) = ro verb
+```
+
 ## Voice
 
 ```
