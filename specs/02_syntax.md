@@ -36,4 +36,13 @@ Because in Polish notation it's not easy to chain function calls we need two spe
 | u    | `<\|`              | Chaining by first parameter |
 | yu   | `\|>`              | Chaining by last parameter  |
 
-<!-- TODO: add example -->
+Examples:
+
+| Lispeak Expression | Replacement Symbolic Expression | Equivalent |
+| ------------------ | ------------------------------- | ---------- |
+| o u a b c yo       | `(<\| a b c)`                   | `c(b(a))`  |
+| o yu a b c yo      | `(<\| a b c)`                   | `c(b(a))`  |
+| o u a b c yo       | `(<\| a (b 1) (c 2))`           | `c(b(a))`  |
+
+<!-- TODO: something is wrong here. fix -->
+<!-- Based on https://github.com/una-language/una-language/blob/master/DOCS.md#chaining-symmetry -->
