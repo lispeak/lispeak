@@ -40,7 +40,7 @@ Basic vowels are
 | o      | open             | о                  |
 | e      | bet              | э                  |
 | u      | moon             | у                  |
-| i      | -                | ы                  |
+| i      | pit              | и                  |
 
 Adding `y` before the basic vowel we create a derivative vowel
 
@@ -50,7 +50,6 @@ Adding `y` before the basic vowel we create a derivative vowel
 | yo     | yoga             | ё                  |
 | ye     | yes              | е                  |
 | yu     | <b>u</b>se       | ю                  |
-| yi     | mach<b>i</b>ne   | и                  |
 
 ### Special signs
 

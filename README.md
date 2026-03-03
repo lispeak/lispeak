@@ -63,28 +63,3 @@ Letter `y` works as negation operation for vowels - so the same word but startin
 ## Morphology
 
 The basic idea of Lispeak morphology is phonetic symmetry using pair sounds like `a` and `ya` or `f` and `v` for symmetric meanings like `left` and `right`, `beautiful` and `ugly`, `subject` and `object`, `cold` and `hot`. It will be based on something similar to consonant roots and binyanim in Hebrew.
-
-## Digits and Numerals
-
-Digits in Lispeak are based on vowels in alphabetic order:
-
-| Digit | Lispeak | Russian Pronunciation |
-| ----- | ------- | --------------------- |
-| 0     | `an`    | `ан`                  |
-| 1     | `en`    | `эн`                  |
-| 2     | `in`    | `ын`                  |
-| 3     | `on`    | `он`                  |
-| 4     | `un`    | `ун`                  |
-| 5     | `yan`   | `ян`                  |
-| 6     | `yen`   | `ен`                  |
-| 7     | `yin`   | `ин`                  |
-| 8     | `yon`   | `ён`                  |
-| 9     | `yun`   | `юн`                  |
-
-To construct a numeral combine first sounds of digits with `'` separator:
-
-| Number | Lispeak          | Russian Pronunciation |
-| ------ | ---------------- | --------------------- |
-| 12     | `en'ina`         | `эн-ына`              |
-| 586    | `yan'yon'yena`   | `ян-ён-ена`           |
-| 9470   | `yun'un'yin'ana` | `юн-ун-ин-ана`        |
