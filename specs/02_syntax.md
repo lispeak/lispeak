@@ -1,4 +1,4 @@
-## Syntax
+# Syntax
 
 Lispeak syntax is based on lambda calculus.
 

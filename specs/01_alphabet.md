@@ -1,4 +1,4 @@
-## Alphabet
+# Alphabet
 
 Lispeak uses the following letters:
 
@@ -6,7 +6,7 @@ Lispeak uses the following letters:
 abcdefghijklmnoprstuvxyz
 ```
 
-### Consonants
+## Consonants
 
 | Symbol | Sound in English | Russian Equivalent |
 | ------ | ---------------- | ------------------ |
@@ -30,7 +30,7 @@ abcdefghijklmnoprstuvxyz
 | y      | may / (fr.) Paul | й/ь                |
 | z      | ooze             | з                  |
 
-### Vowels
+## Vowels
 
 Basic vowels are
 
@@ -51,7 +51,7 @@ Adding `y` before the basic vowel we create a derivative vowel
 | ye     | yes              | е                  |
 | yu     | <b>u</b>se       | ю                  |
 
-### Special signs
+## Special signs
 
 | Symbol | Description                     | Russian Equivalent |
 | ------ | ------------------------------- | ------------------ |
