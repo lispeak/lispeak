@@ -55,7 +55,7 @@ ye (ryo verb) = ro verb
 
 ## Voice
 
-Aspect is based on group Z₂:
+Voice is based on group Z₂:
 
 | Type             | Suffix | Straight form | Verb suffix form |
 | ---------------- | ------ | ------------- | ---------------- |
