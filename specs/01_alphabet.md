@@ -38,7 +38,6 @@ Some consonants form oppositions:
 - `c` / `j`
 - `d`/`t`
 - `f`/`v`
-- `f`/`v`
 - `g`/`k`
 - `s`/`z`
 
