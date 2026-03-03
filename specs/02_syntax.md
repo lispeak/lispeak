@@ -5,9 +5,9 @@ Lispeak syntax is based on lambda calculus.
 | Word | Replacement Symbol | Pseudo Lambda Calculus Equivalent | Description         |
 | ---- | ------------------ | --------------------------------- | ------------------- |
 | o    | `(`                | `(`                               | Opening parenthesis |
-| yo   | `)`                | `)`                               | Closing parenthesis |
-| e    | `<-`               | `=`                               | Naming expression   |
-| ye   | `->`               | `λ.`                              | Lambda              |
+| e    | `)`                | `)`                               | Closing parenthesis |
+| yo   | `->`               | `λ.`                              | Lambda              |
+| ye   | `<-`               | `=`                               | Naming expression   |
 
 Lispeak uses [Polish prefix notation](https://en.wikipedia.org/wiki/Polish_notation):
 
@@ -17,15 +17,15 @@ o operation operand1 operand2 operand3 yo
 
 Examples:
 
-| Lispeak Expression             | Replacement Symbolic Expression | Pseudo Lambda Calculus Equivalent |
-| ------------------------------ | ------------------------------- | --------------------------------- |
-| X                              | `X`                             | `X`                               |
-| o X Y yo                       | `(X Y)`                         | `X Y`                             |
-| o e X o Y Z yo yo              | `(<- X (Y Z))`                  | `X = (Y Z)`                       |
-| o ye X o ye Y X yo yo          | `(-> X (-> Y X))`               | `λX. λY. X`                       |
-| o e X o ye Y o ye Z Y yo yo yo | `(<- X (-> Y (-> Z Y)))`        | `X = λY. λZ. Y`                   |
+| Lispeak Expression          | Replacement Symbolic Expression | Pseudo Lambda Calculus Equivalent |
+| --------------------------- | ------------------------------- | --------------------------------- |
+| X                           | `X`                             | `X`                               |
+| o X Y e                     | `(X Y)`                         | `X Y`                             |
+| o ye X o Y Z e e            | `(<- X (Y Z))`                  | `X = (Y Z)`                       |
+| o yo X o yo Y X e e         | `(-> X (-> Y X))`               | `λX. λY. X`                       |
+| o e X o ye Y o ye Z Y e e e | `(<- X (-> Y (-> Z Y)))`        | `X = λY. λZ. Y`                   |
 
-In spoken Lispeak, each successive opening parenthesis “o” is pronounced one pitch higher and each closing “yo” one pitch lower, so that syntactic nesting is encoded directly in melodic contour.
+In spoken Lispeak, each successive opening parenthesis “o” is pronounced one pitch higher and each closing “e” one pitch lower, so that syntactic nesting is encoded directly in melodic contour.
 
 <!-- ## Chaining
 

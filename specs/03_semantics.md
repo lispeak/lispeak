@@ -1,4 +1,4 @@
-<!-- # Semantics
+# Semantics
 
 Lispeak is based on ideas of groups and symmetries from the group theory.
 
@@ -66,4 +66,4 @@ Example of negation:
 
 ```
 ya (rya verb) = re verb
-``` -->
+```
