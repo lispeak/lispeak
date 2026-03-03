@@ -45,7 +45,7 @@ Aspect is based on group Z₂:
 | Type               | Suffix | Straight form | Verb suffix form | Default suffix form |
 | ------------------ | ------ | ------------- | ---------------- | ------------------- |
 | Complete (default) | `tu`   | `(tu verb)`   | `verb'tu`        | `verb`              |
-| Incomplete process | `tyu`  | `(ryo verb)`  | `verb'tyu`       | `verb'tyu`          |
+| Incomplete process | `tyu`  | `(tyu verb)`  | `verb'tyu`       | `verb'tyu`          |
 
 Example of negation:
 
