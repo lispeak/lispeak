@@ -27,10 +27,10 @@ verb'mod1mod2mod3
 
 Tense is based on group ℤ ⋊ Z₂ (semidirect product Z with Z₂) together with `e` and `ye`:
 
-| Meaning | Symbols | Straight form | Verb suffix form |
-| ------- | ------- | ------------- | ---------------- |
-| Past    | ru      | (ru verb)     | verb'ru          |
-| Future  | ryu     | (ryu verb)    | verb'ryu         |
+| Type   | Suffix | Straight form | Verb suffix form |
+| ------ | ------ | ------------- | ---------------- |
+| Past   | `ru`   | `(ru verb)`   | `verb'ru`        |
+| Future | `ryu`  | `(ryu verb)`  | `verb'ryu`       |
 
 Example of negation:
 
@@ -44,8 +44,8 @@ Aspect is based on group Z₂:
 
 | Type                 | Suffix | Straight form | Verb suffix form |
 | -------------------- | ------ | ------------- | ---------------- |
-| Complete             | `ro`   | (ro verb)     | verb'ro          |
-| Incomplete (process) | `ryo`  | (ryo verb)    | verb'ryo         |
+| Complete             | `ro`   | `(ro verb)`   | `verb'ro`        |
+| Incomplete (process) | `ryo`  | `(ryo verb)`  | `verb'ryo`       |
 
 ## Voice
 
