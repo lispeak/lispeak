@@ -93,6 +93,24 @@ importers:
 
   packages/config-typescript: {}
 
+  packages/core:
+    devDependencies:
+      '@repo/config-eslint':
+        specifier: workspace:*
+        version: link:../config-eslint
+      '@repo/config-typescript':
+        specifier: workspace:*
+        version: link:../config-typescript
+      '@types/node':
+        specifier: ^22.19.3
+        version: 22.19.3
+      eslint:
+        specifier: ^9.39.1
+        version: 9.39.2
+      typescript:
+        specifier: 5.9.2
+        version: 5.9.2
+
   packages/ui:
     dependencies:
       autoprefixer:
