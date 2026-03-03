@@ -17,6 +17,6 @@ export const directionLeft = getLeft(directionRight);
 export const directionDown = getLeft(directionUp);
 
 // Time
-export const timeFuture = 'dar';
+export const timeFuture = 'ra';
 export const timePast = getLeft(timeFuture);
 export const timePresent = getCenter(timePast, timeFuture);

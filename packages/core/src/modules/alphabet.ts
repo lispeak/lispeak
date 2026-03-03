@@ -14,9 +14,8 @@ export const isVowel = (letter: string): boolean => {
 };
 export const isConsonant = (letter: string) => !isVowel(letter);
 
-export const oppositeLetter = (letter: string): string => {
-  switch (letter) {
-    // Consonants
+export const oppositeConsonant = (consonant: string): string => {
+  switch (consonant) {
     case 'b':
       return 'p';
     case 'c':
@@ -55,20 +54,8 @@ export const oppositeLetter = (letter: string): string => {
       return 'h';
     case 'y':
       return 'y';
-
-    // Vowels
-    case 'a':
-      return 'u';
-    case 'e':
-      return 'o';
-    case 'i':
-      return 'i';
-    case 'o':
-      return 'e';
-    case 'u':
-      return 'a';
     default:
-      throw new Error(`Invalid letter: ${letter}`);
+      throw new Error(`Invalid consonant: ${consonant}`);
   }
 };
 
@@ -76,5 +63,5 @@ export const getCenter = (left: string, right: string) => right + 'i' + left;
 export const getLeft = (word: string) =>
   word
     .split('')
-    .map((letter) => oppositeLetter(letter))
+    .map((letter) => (isVowel(letter) ? letter : oppositeConsonant(letter)))
     .join('');

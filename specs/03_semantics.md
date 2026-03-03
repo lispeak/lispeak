@@ -32,11 +32,11 @@ i (pu verb) = ba verb
 
 Tense is based on group ℤ ⋊ Z₂ (semidirect product Z with Z₂) together with `i` and `ii`:
 
-| Type    | Suffix | Straight form | Verb suffix form |
-| ------- | ------ | ------------- | ---------------- |
-| Past    | `ra`   | `(ra verb)`   | `yu verb ra`     |
-| Present | `-`    | `verb`        | `verb`           |
-| Future  | `ru`   | `(ru verb)`   | `yu verb ru`     |
+| Type    | Suffix  | Straight form | Verb suffix form |
+| ------- | ------- | ------------- | ---------------- |
+| Past    | `ra`    | `(ra verb)`   | `yu verb ra`     |
+| Present | `raihu` | `verb`        | `verb`           |
+| Future  | `hu`    | `(hu verb)`   | `yu verb ha`     |
 
 Example of negation:
 
