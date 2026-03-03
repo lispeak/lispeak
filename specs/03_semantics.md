@@ -35,22 +35,22 @@ Tense is based on group ℤ ⋊ Z₂ (semidirect product Z with Z₂) together w
 Example of negation:
 
 ```
-ye (ryu verb) = ru verb
+ya (ryu verb) = ru verb
 ```
 
 ## Aspect
 
 Aspect is based on group Z₂:
 
-| Type               | Suffix | Straight form | Verb suffix form |
-| ------------------ | ------ | ------------- | ---------------- |
-| Complete (default) | `ro`   | `(ro verb)`   | `verb'ro`        |
-| Incomplete process | `ryo`  | `(ryo verb)`  | `verb'ryo`       |
+| Type               | Suffix | Straight form | Verb suffix form | Default suffix form |
+| ------------------ | ------ | ------------- | ---------------- | ------------------- |
+| Complete (default) | `tu`   | `(tu verb)`   | `verb'tu`        | `verb`              |
+| Incomplete process | `tyu`  | `(ryo verb)`  | `verb'tyu`       | `verb'tyu`          |
 
 Example of negation:
 
 ```
-ye (ryo verb) = ro verb
+
 ```
 
 ## Voice
@@ -59,11 +59,11 @@ Voice is based on group Z₂:
 
 | Type             | Suffix | Straight form | Verb suffix form |
 | ---------------- | ------ | ------------- | ---------------- |
-| Active (default) | `re`   | `(re verb)`   | `verb're`        |
-| Passive          | `rye`  | `(rye verb)`  | `verb'rye`       |
+| Active (default) | ``     | `(re verb)`   | `verb're`        |
+| Passive          | `rye`  | `(rya verb)`  | `verb'rye`       |
 
 Example of negation:
 
 ```
-ye (rye verb) = re verb
+ya (rya verb) = re verb
 ```
