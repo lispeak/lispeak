@@ -17,13 +17,13 @@ o operation operand1 operand2 operand3 e
 
 Examples:
 
-| Lispeak Expression          | Replacement Symbolic Expression | Pseudo Lambda Calculus Equivalent |
-| --------------------------- | ------------------------------- | --------------------------------- |
-| X                           | `X`                             | `X`                               |
-| o X Y e                     | `(X Y)`                         | `X Y`                             |
-| o ye X o Y Z e e            | `(<- X (Y Z))`                  | `X = (Y Z)`                       |
-| o yo X o yo Y X e e         | `(-> X (-> Y X))`               | `λX. λY. X`                       |
-| o e X o ye Y o ye Z Y e e e | `(<- X (-> Y (-> Z Y)))`        | `X = λY. λZ. Y`                   |
+| Lispeak Expression           | Replacement Symbolic Expression | Pseudo Lambda Calculus Equivalent |
+| ---------------------------- | ------------------------------- | --------------------------------- |
+| X                            | `X`                             | `X`                               |
+| o X Y e                      | `(X Y)`                         | `X Y`                             |
+| o ye X o Y Z e e             | `(<- X (Y Z))`                  | `X = (Y Z)`                       |
+| o yo X o yo Y X e e          | `(-> X (-> Y X))`               | `λX. λY. X`                       |
+| o ye X o yo Y o yo Z Y e e e | `(<- X (-> Y (-> Z Y)))`        | `X = λY. λZ. Y`                   |
 
 In spoken Lispeak, each successive opening parenthesis “o” is pronounced one pitch higher and each closing “e” one pitch lower, so that syntactic nesting is encoded directly in melodic contour.
 
