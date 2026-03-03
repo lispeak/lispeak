@@ -55,6 +55,9 @@ flowchart TD
 
 - [Alphabet](./specs//01_alphabet.md)
 - [Syntax](./specs//02_syntax.md)
+- [Semantics](./specs//03_semantics.md)
+- [Logic](./specs//04_logic.md)
+- [Numbers](./specs//05_numbers.md)
 
 ## Symmetry
 
