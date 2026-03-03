@@ -19,13 +19,13 @@ Aspect is based on group Z₂ together with `i` and `ii`:
 
 | Type               | Suffix | Straight form | Verb suffix form | Default suffix form |
 | ------------------ | ------ | ------------- | ---------------- | ------------------- |
-| Complete (default) | `da`   | `(da verb)`   | `yu verb da`     | `verb`              |
-| Incomplete process | `du`   | `(du verb)`   | `yu verb du`     | `yu verb du`        |
+| Complete (default) | `ba`   | `(ba verb)`   | `yu verb ba`     | `verb`              |
+| Incomplete process | `pu`   | `(pu verb)`   | `yu verb pu`     | `yu verb pu`        |
 
 Example of negation:
 
 ```
-i (du verb) = da verb
+i (pu verb) = ba verb
 ```
 
 ### Tense
@@ -51,12 +51,12 @@ Voice is based on group Z₂ together with `i` and `ii`:
 | Type             | Suffix | Straight form | Verb suffix form | Default suffix form |
 | ---------------- | ------ | ------------- | ---------------- | ------------------- |
 | Active (default) | `za`   | `(za verb)`   | `yu verb za`     | `verb`              |
-| Passive          | `zu`   | `(zu verb)`   | `yu verb zu`     | `yu verb zu`        |
+| Passive          | `su`   | `(su verb)`   | `yu verb su`     | `yu verb su`        |
 
 Example of negation:
 
 ```
-i (zu verb) = za verb
+i (su verb) = za verb
 ```
 
 ## Multiple modifiers
@@ -67,6 +67,6 @@ To say something like `was going` we just stack a few modifiers. Let's check exa
 go = to go, go, goes
 yu go ra = ra go = went
 yu go ru = ru go = will go
-yu go dura = ra (du go) = was going
-yu go duru = ru (du go) = will be going
+yu go pura = ra (pu go) = was going
+yu go puru = ru (pu go) = will be going
 ```
