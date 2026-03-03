@@ -1,17 +1,5 @@
 # Semantics
 
-Lispeak is based on ideas of groups and symmetries from the group theory.
-
-Every meaning in Lispeak should be a group:
-
-- It should have neutral element (identity)
-- It should have negation operation (not)
-
-| Group meaning | Symbols | Lispeak Example | Meaning                 |
-| ------------- | ------- | --------------- | ----------------------- |
-| Identity      | u       | u verb          | Leaves the same meaning |
-| Negation      | yu      | yu verb         | Negates the meaning     |
-
 The words in Lispeak can be only verbs and nouns:
 
 - Verb is function. Its name always starts with vowel
@@ -20,7 +8,7 @@ The words in Lispeak can be only verbs and nouns:
 Every verb can have suffix modifiers that go after `'` letter:
 
 ```
-verb'mod1mod2mod3
+verb'modifier1modifier2modifier3
 ```
 
 ## Tense
@@ -30,7 +18,7 @@ Tense is based on group ℤ ⋊ Z₂ (semidirect product Z with Z₂) together w
 | Type   | Suffix | Straight form | Verb suffix form |
 | ------ | ------ | ------------- | ---------------- |
 | Past   | `ru`   | `(ru verb)`   | `verb'ru`        |
-| Future | `ryu`  | `(ryu verb)`  | `verb'ryu`       |
+| Future | `ra`   | `(ra verb)`   | `verb'ra`        |
 
 Example of negation:
 
@@ -44,8 +32,8 @@ Aspect is based on group Z₂:
 
 | Type               | Suffix | Straight form | Verb suffix form | Default suffix form |
 | ------------------ | ------ | ------------- | ---------------- | ------------------- |
-| Complete (default) | `tu`   | `(tu verb)`   | `verb'tu`        | `verb`              |
-| Incomplete process | `tyu`  | `(tyu verb)`  | `verb'tyu`       | `verb'tyu`          |
+| Complete (default) | `lu`   | `(lu verb)`   | `verb'lu`        | `verb`              |
+| Incomplete process | `la`   | `(la verb)`   | `verb'la`        | `verb'tyu`          |
 
 Example of negation:
 

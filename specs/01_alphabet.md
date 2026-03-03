@@ -51,6 +51,8 @@ Adding `y` before the basic vowel we create a derivative vowel
 | ye     | yes              | е                  |
 | yu     | <b>u</b>se       | ю                  |
 
+## Vowel circle
+
 So vowels form a symmetryic circle:
 
 ```
@@ -61,6 +63,15 @@ So vowels form a symmetryic circle:
  u  | yu |  e
 
 ```
+
+Oppositions in this circle are used for different syntax and semantic symmetries:
+
+- `a` / `u`
+- `o` / `e`
+- `ya` / `yu`
+- `yo` / `ye`
+
+And the center `i` is used for neutrality
 
 ## Special signs
 
