@@ -30,9 +30,21 @@ abcdefghijklmnoprstuvxyz
 | y      | may / (fr.) Paul | й/ь                |
 | z      | ooze             | з                  |
 
+## Consonant oppositions
+
+Some consonants form oppositions:
+
+- `b` / `p`
+- `c` / `j`
+- `d`/`t`
+- `f`/`v`
+- `f`/`v`
+- `g`/`k`
+- `s`/`z`
+
 ## Vowels
 
-Basic vowels are
+Basic vowels are:
 
 | Symbol | Sound in English | Russian Equivalent |
 | ------ | ---------------- | ------------------ |
@@ -51,7 +63,7 @@ Adding `y` before the basic vowel we create a derivative vowel
 | ye     | yes              | е                  |
 | yu     | <b>u</b>se       | ю                  |
 
-## Vowel circle
+## Vowel oppositions
 
 So vowels form a symmetryic circle:
 

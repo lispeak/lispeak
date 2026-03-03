@@ -19,8 +19,8 @@ Aspect is based on group Z₂ together with `i` and `ii`:
 
 | Type               | Suffix | Straight form | Verb suffix form | Default suffix form |
 | ------------------ | ------ | ------------- | ---------------- | ------------------- |
-| Complete (default) | `da`   | `(da verb)`   | `u verb da`      | `verb`              |
-| Incomplete process | `du`   | `(du verb)`   | `u verb du`      | `u verb du`         |
+| Complete (default) | `da`   | `(da verb)`   | `yu verb da`     | `verb`              |
+| Incomplete process | `du`   | `(du verb)`   | `yu verb du`     | `yu verb du`        |
 
 Example of negation:
 
@@ -34,9 +34,9 @@ Tense is based on group ℤ ⋊ Z₂ (semidirect product Z with Z₂) together w
 
 | Type    | Suffix | Straight form | Verb suffix form |
 | ------- | ------ | ------------- | ---------------- |
-| Past    | `ra`   | `(ra verb)`   | `u verb ra`      |
+| Past    | `ra`   | `(ra verb)`   | `yu verb ra`     |
 | Present | `-`    | `verb`        | `verb`           |
-| Future  | `ru`   | `(ru verb)`   | `u verb ru`      |
+| Future  | `ru`   | `(ru verb)`   | `yu verb ru`     |
 
 Example of negation:
 
@@ -50,8 +50,8 @@ Voice is based on group Z₂ together with `i` and `ii`:
 
 | Type             | Suffix | Straight form | Verb suffix form | Default suffix form |
 | ---------------- | ------ | ------------- | ---------------- | ------------------- |
-| Active (default) | `za`   | `(za verb)`   | `u verb za`      | `verb`              |
-| Passive          | `zu`   | `(zu verb)`   | `u verb zu`      | `u verb zu`         |
+| Active (default) | `za`   | `(za verb)`   | `yu verb za`     | `verb`              |
+| Passive          | `zu`   | `(zu verb)`   | `yu verb zu`     | `yu verb zu`        |
 
 Example of negation:
 
@@ -65,8 +65,8 @@ To say something like `was going` we just stack a few modifiers. Let's check exa
 
 ```
 go = to go, go, goes
-u go ra = ra go = went
-u go ru = ru go = will go
-u go dura = ra (du go) = was going
-u go duru = ru (du go) = will be going
+yu go ra = ra go = went
+yu go ru = ru go = will go
+yu go dura = ra (du go) = was going
+yu go duru = ru (du go) = will be going
 ```

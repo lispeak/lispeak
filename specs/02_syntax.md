@@ -6,8 +6,8 @@ Lispeak syntax is based on lambda calculus. All the opposite
 | ---- | ------------------ | --------------------------------- | ------------------- |
 | o    | `(`                | `(`                               | Opening parenthesis |
 | e    | `)`                | `)`                               | Closing parenthesis |
-| yo   | `->`               | `λ.`                              | Lambda              |
-| ye   | `<-`               | `=`                               | Naming expression   |
+| a    | `->`               | `λ.`                              | Lambda              |
+| u    | `<-`               | `=`                               | Naming expression   |
 
 Lispeak uses [Polish prefix notation](https://en.wikipedia.org/wiki/Polish_notation):
 
@@ -17,13 +17,13 @@ o operation operand1 operand2 operand3 e
 
 Examples:
 
-| Lispeak Expression           | Replacement Symbolic Expression | Pseudo Lambda Calculus Equivalent |
-| ---------------------------- | ------------------------------- | --------------------------------- |
-| X                            | `X`                             | `X`                               |
-| o X Y e                      | `(X Y)`                         | `X Y`                             |
-| o ye X o Y Z e e             | `(<- X (Y Z))`                  | `X = (Y Z)`                       |
-| o yo X o yo Y X e e          | `(-> X (-> Y X))`               | `λX. λY. X`                       |
-| o ye X o yo Y o yo Z Y e e e | `(<- X (-> Y (-> Z Y)))`        | `X = λY. λZ. Y`                   |
+| Lispeak Expression        | Replacement Symbolic Expression | Pseudo Lambda Calculus Equivalent |
+| ------------------------- | ------------------------------- | --------------------------------- |
+| X                         | `X`                             | `X`                               |
+| o X Y e                   | `(X Y)`                         | `X Y`                             |
+| o u X o Y Z e e           | `(<- X (Y Z))`                  | `X = (Y Z)`                       |
+| o a X o a Y X e e         | `(-> X (-> Y X))`               | `λX. λY. X`                       |
+| o u X o a Y o a Z Y e e e | `(<- X (-> Y (-> Z Y)))`        | `X = λY. λZ. Y`                   |
 
 In spoken Lispeak, each successive opening parenthesis “o” is pronounced one pitch higher and each closing “e” one pitch lower, so that syntactic nesting is encoded directly in melodic contour.
 
@@ -47,15 +47,15 @@ Because in Polish notation it's not easy to chain function calls we need two spe
 
 | Word | Replacement Symbol | Description                 |
 | ---- | ------------------ | --------------------------- |
-| a    | `>>`               | Chaining by last parameter  |
-| u    | `<<`               | Chaining by first parameter |
+| ya   | `>>`               | Chaining by last parameter  |
+| yu   | `<<`               | Chaining by first parameter |
 
 Examples:
 
 | Lispeak Expression | Replacement Symbolic Expression | Equivalent |
 | ------------------ | ------------------------------- | ---------- |
-| o a x y z e        | `(>> x y z)`                    | `z(y(x))`  |
-| o u x y z e        | `(<< x y z)`                    | `z(y(x))`  |
+| o ya x y z e       | `(>> x y z)`                    | `z(y(x))`  |
+| o yu x y z e       | `(<< x y z)`                    | `z(y(x))`  |
 
 <!-- TODO: something is wrong here. fix -->
 <!-- Based on https://github.com/una-language/una-language/blob/master/DOCS.md#chaining-symmetry
