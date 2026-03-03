@@ -51,6 +51,17 @@ Adding `y` before the basic vowel we create a derivative vowel
 | ye     | yes              | е                  |
 | yu     | <b>u</b>se       | ю                  |
 
+So vowels form a symmetryic circle:
+
+```
+ ya |  a |  yu
+----|----|----
+ o  |  i |  u
+----|----|----
+ yo |  e |  ye
+
+```
+
 ## Special signs
 
 | Symbol | Description                     | Russian Equivalent |

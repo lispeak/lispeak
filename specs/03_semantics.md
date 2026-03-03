@@ -1,4 +1,4 @@
-# Semantics
+<!-- # Semantics
 
 Lispeak is based on ideas of groups and symmetries from the group theory.
 
@@ -9,8 +9,8 @@ Every meaning in Lispeak should be a group:
 
 | Group meaning | Symbols | Lispeak Example | Meaning                 |
 | ------------- | ------- | --------------- | ----------------------- |
-| Identity      | a       | a verb          | Leaves the same meaning |
-| Negation      | ya      | ya verb         | Negates the meaning     |
+| Identity      | u       | u verb          | Leaves the same meaning |
+| Negation      | yu      | yu verb         | Negates the meaning     |
 
 The words in Lispeak can be only verbs and nouns:
 
@@ -66,4 +66,4 @@ Example of negation:
 
 ```
 ya (rya verb) = re verb
-```
+``` -->

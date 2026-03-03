@@ -27,7 +27,7 @@ Examples:
 
 In spoken Lispeak, each successive opening parenthesis “o” is pronounced one pitch higher and each closing “yo” one pitch lower, so that syntactic nesting is encoded directly in melodic contour.
 
-## Chaining
+<!-- ## Chaining
 
 Because in Polish notation it's not easy to chain function calls we need two special chaining operations:
 
@@ -41,7 +41,7 @@ Examples:
 | Lispeak Expression | Replacement Symbolic Expression | Equivalent |
 | ------------------ | ------------------------------- | ---------- |
 | o u a b c yo       | `(<< a b c)`                    | `c(b(a))`  |
-| o yu a b c yo      | `(>> a b c)`                    | `c(b(a))`  |
+| o yu a b c yo      | `(>> a b c)`                    | `c(b(a))`  | -->
 
 <!-- TODO: something is wrong here. fix -->
 <!-- Based on https://github.com/una-language/una-language/blob/master/DOCS.md#chaining-symmetry -->
